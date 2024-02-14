@@ -1,0 +1,39 @@
+---
+title: Topological-Graph Dependencies and Scaling Properties of a Heuristic Qubit-Assignment
+  Algorithm
+authors:
+- Matthew A. Steinberg
+- Sebastian Feld
+- Carmen G. Almudever
+- Michael Marthaler
+- Jan-Michael Reiner
+date: '2022-01-01'
+publishDate: '2024-02-14T10:33:06.051191Z'
+publication_types:
+- article-journal
+publication: '*IEEE Transactions on Quantum Engineering*'
+doi: 10.1109/TQE.2022.3160015
+abstract: The qubit-mapping problem aims to assign and route qubits of a quantum circuit
+  onto an noisy intermediate-scale quantum (NISQ) device in an optimized fashion,
+  with respect to some cost function. Finding an optimal solution to this problem
+  is known to scale exponentially in computational complexity; as such, it is imperative
+  to investigate scalable qubit-mapping solutions for NISQ computation. In this work,
+  a noise-aware heuristic qubit-assignment algorithm (which assigns initial placements
+  for qubits in a quantum algorithm to qubits on an NISQ device, but does not route
+  qubits during the quantum algorithm's execution) is presented and compared against
+  the optimal brute-force solution, as well as a trivial qubit assignment, with the
+  aim to quantify the performance of our heuristic qubit-assignment algorithm. We
+  find that for small, connected-graph algorithms, our heuristic-assignment algorithm
+  faithfully lies in between the effective upper and lower bounds given by the brute-force
+  and trivial qubit-assignment algorithms. Additionally, we find that the topological-graph
+  properties of quantum algorithms with over six qubits play an important role in
+  our heuristic qubit-assignment algorithm's performance on NISQ devices. Finally,
+  we investigate the scaling properties of our heuristic algorithm for quantum processors
+  with up to 100 qubits; here, the algorithm was found to be scalable for quantum-algorithms
+  that admit path-like graphs. Our findings show that as the size of the quantum processor
+  in our simulation grows, so do the benefits from utilizing the heuristic qubitassignment
+  algorithm, under particular constraints for our heuristic algorithm. This work,
+  thus, characterizes the performance of a heuristic qubit-assignment algorithm with
+  respect to the topological-graph and scaling properties of a quantum algorithm that
+  one may wish to run on a given NISQ device.
+---

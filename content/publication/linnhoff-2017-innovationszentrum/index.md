@@ -1,0 +1,30 @@
+---
+title: 'Innovationszentrum Mobiles Internet des ZD.B: Methoden der Digitalisierung
+  in der Arbeitswelt'
+authors:
+- Claudia Linnhoff-Popien
+- Sebastian Feld
+- Martin Werner
+- Mirco Schönfeld
+date: '2017-07-01'
+publishDate: '2024-02-14T10:33:06.037614Z'
+publication_types:
+- chapter
+publication: '*50 Jahre Universitäts-Informatik in München*'
+doi: 10.1007/978-3-662-54712-0_6
+abstract: 'Der digitale Wandel verändert alle Bereiche von Wirtschaft und Gesellschaft.
+  Er erfasst nicht nur einzelne Medien, sondern ganze Prozesse und Branchen: Damit
+  die Wirtschaft die digitale Transformation bewältigen kann, müssen die Netzinfrastruktur,
+  der Zuschnitt der Plattformen und die Bandbreite stimmen, denn Daten müssen zur
+  richtigen Zeit an den richtigen Ort gelangen. Um den digitalen Aufbruch in Bayern
+  zu unterstützen, sowie Wissenschaft und Industrie bei diesen Fragestellungen besser
+  zu vernetzen, ist das Innovationszentrum Mobiles Internet entstanden. Dieses Innovationszentrum
+  ist ein Projekt innerhalb des Zentrum Digitalisierung Bayern (ZD.B), das vom Bayerischen
+  Wirtschaftsministerium finanziert wird. Es hat zum Ziel, die Wirtschaft Bayerns
+  zu stärken, indem Innovationen frühzeitig von der Universität in die Wirtschaft
+  transferiert werden. Entstanden ist es aus der Historie des Lehrstuhls mit zahlreichen
+  namhaften Partnern wie Allianz, BMW, Siemens, Deutsche Telekom u. v. a. m. Dabei
+  hat das Zentrum seine Arbeit in vier Säulen organisiert: Mobiles Internet, Logistik
+  und Tracking, Smart City und Cyber Security. Dieser Artikel stellt konkrete Ergebnisse
+  der wissenschaftlichen Arbeit dieses Zentrums vor.'
+---

@@ -1,0 +1,34 @@
+---
+title: Traffic Signal Adaptive Routing
+authors:
+- Valentin Protschky
+- Sebastian Feld und Michael Wälischmiller
+date: '2015-09-01'
+publishDate: '2024-02-14T10:33:06.338515Z'
+publication_types:
+- paper-conference
+publication: '*IEEE 18th International Conference on Intelligent Transportation Systems
+  (ITSC 2015)*'
+doi: 10.1109/ITSC.2015.81
+abstract: "The knowledge of future Signal Phase and Timing information (SPaT) of traffic
+  lights ahead enables a vast number of driving assistance functions, such as Green
+  Light Optimal Speed Control (GLOSA), Red Light Duration Advisory (RLDA) or Traffic
+  Signal Adaptive routing (TSA routing). The purpose of TSA routing is to reduce the
+  travel time by choosing a route that is possibly longer than the shortest one but
+  has less red lights. Whereas GLOSA and RLDA are quite easy to implement from a scientific
+  point of view, TSA routing presents a certain challenge: first of all, TSA routing
+  necessitates predictions on future signal states on a wider look in the future than
+  GLOSA and RLDA, a possible reason why this field of research still seems rather
+  unexplored. Second, there are still many unresolved issues, such as the inadequacy
+  of graphs for TSA-routing, or proper traffic load estimations. In this paper, we
+  present a fully functioning model for TSA routing on the basis of our forgoing research
+  on the prediction of future signal states and address the question of practical
+  usability by evaluating our model under realistic conditions. We analyze, among
+  other things, the impact of partial knowledge on traffic light's future signal states
+  and the impact of different traffic loads on TSA routes by means of a test field
+  in Munich, Germany. We describe necessary modifications of the underlying transportation
+  network's graph structure and shortest path routing algorithm to allow routing under
+  consideration of future signal states of traffic lights. We show that, albeit there
+  are many erratic aspects in traffic and signal states, TSA routing still reaches
+  a significant travel time gain over usual routing in our test field."
+---

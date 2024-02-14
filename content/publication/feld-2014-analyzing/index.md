@@ -1,0 +1,25 @@
+---
+title: Analyzing the deployment of Bitcoin's P2P network under an AS-level perspective
+authors:
+- Sebastian Feld
+- Mirco Schönfeld
+- Martin Werner
+date: '2014-06-01'
+publishDate: '2024-02-14T10:33:06.388262Z'
+publication_types:
+- paper-conference
+publication: '*International Workshop on Secure Peer-to-Peer Intelligent Networks
+  & Systems (SPINS-2014)*'
+doi: 10.1016/j.procs.2014.05.542
+abstract: Bitcoin has become increasingly important in recent years. The exchange
+  rate raised from $14 in January 2013 up to $240 in April 2013 and even $900 in early
+  2014. In this paper, we present novel insights about Bitcoin’s peer-to-peer (P2P)
+  network with a special focus on its distribution among distinct autonomous systems.
+  We traversed Bitcoin’s P2P network in a protocol-compliant manner and collected
+  information about the network size, the number of clients, and the network distribution
+  among autonomous systems. Our findings lead to conclusions about the resilience
+  of the Bitcoin ecosystem, the unambiguousness of the blockchain in use, and the
+  propagation and verification of transaction blocks.
+url_pdf: 
+  https://www.sciencedirect.com/science/article/pii/S187705091400742X/pdf?md5=2a5efb534e0d4dc1e12ba9b4157ae4c9&pid=1-s2.0-S187705091400742X-main.pdf
+---

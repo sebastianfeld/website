@@ -1,0 +1,37 @@
+---
+title: Bayesian Surprise in Indoor Environments
+authors:
+- Sebastian Feld
+- Andreas Sedlmeier
+- Markus Friedrich
+- Jan Franz
+- Lenz Belzner
+date: '2019-11-01'
+publishDate: '2024-02-14T10:33:06.205848Z'
+publication_types:
+- paper-conference
+publication: '*27th ACM SIGSPATIAL International Conference on Advances in Geographic
+  Information Systems (ACM SIGSPATIAL 2019)*'
+doi: 10.1145/3347146.3359358
+abstract: This paper proposes a novel method to identify unexpected structures in
+  2D floor plans using the concept of Bayesian Surprise. Taking into account that
+  a person’s expectation is an important aspect of the perception of space, we exploit
+  the theory of Bayesian Surprise to robustly model expectation and thus surprise
+  in the context of building structures. We use Isovist Analysis, which is a popular
+  space syntax technique, to turn qualitative object attributes into quantitative
+  environmental information. Since isovists are location-specific patterns of visibility,
+  a sequence of isovists describes the spatial perception during a movement along
+  multiple points in space. We then use Bayesian Surprise in a feature space consisting
+  of these isovist readings. To demonstrate the suitability of our approach, we take
+  snapshots of an agent’s local environment to provide a short list of images that
+  characterize a traversed trajectory through a 2D indoor environment. Those fingerprints
+  represent surprising regions of a tour, characterize the traversed map and enable
+  indoor LBS to focus more on important regions. Given this idea, we propose to use
+  surprise as a new dimension of context in indoor location-based services (LBS).
+  Agents of LBS, such as mobile robots or non-player characters in computer games,
+  may use the context surprise to focus more on important regions of a map for a better
+  use or understanding of the floor plan.
+links:
+- name: URL
+  url: http://arxiv.org/abs/2004.05381
+---

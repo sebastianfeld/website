@@ -1,0 +1,34 @@
+---
+title: Predictive Collision Management for Time and Risk Dependent Path Planning
+authors:
+- Carsten Hahn
+- Sebastian Feld
+- Hannes Schroter
+date: '2020-11-01'
+publishDate: '2024-02-14T10:33:06.122970Z'
+publication_types:
+- paper-conference
+publication: '*28th ACM SIGSPATIAL International Conference on Advances in Geographic
+  Information Systems (ACM SIGSPATIAL 2020)*'
+abstract: "Autonomous agents such as self-driving cars or parcel robots need to recognize
+  and avoid possible collisions with obstacles in order to move successfully in their
+  environment. Humans, however, have learned to predict movements intuitively and
+  to avoid obstacles in a forward-looking way. The task of collision avoidance can
+  be divided into a global and a local level. Regarding the global level, we propose
+  an approach called \\\"Predictive Collision Management Path Planning\\\" (PCMP).
+  At the local level, solutions for collision avoidance are used that prevent an inevitable
+  collision. Therefore, the aim of PCMP is to avoid unnecessary local collision scenarios
+  using predictive collision management. PCMP is a graph-based algorithm with a focus
+  on the time dimension consisting of three parts: (1) movement prediction, (2) integration
+  of movement prediction into a time-dependent graph, and (3) time and risk-dependent
+  path planning. The algorithm combines the search for a shortest path with the question:
+  is the detour worth avoiding a possible collision scenario? We evaluate the evasion
+  behavior in different simulation scenarios and the results show that a risk-sensitive
+  agent can avoid 47.3% of the collision scenarios while making a detour of 1.3%.
+  A risk-averse agent avoids up to 97.3% of the collision scenarios with a detour
+  of 39.1%. Thus, an agent's evasive behavior can be controlled actively and risk-dependent
+  using PCMP."
+links:
+- name: URL
+  url: https://arxiv.org/abs/2011.13305
+---

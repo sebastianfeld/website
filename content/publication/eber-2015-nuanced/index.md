@@ -1,0 +1,31 @@
+---
+title: Nuanced Collision Detection for Parked Vehicles
+authors:
+- André Ebert
+- Sebastian Feld
+- Martin Werner
+date: '2015-09-01'
+publishDate: '2024-02-14T10:33:06.324654Z'
+publication_types:
+- paper-conference
+publication: '*12. GI/ITG KuVS Fachgespräch Ortsbezogene Anwendungen und Dienste (LBAS
+  2015)*'
+abstract: Today’s omnipresence of smartphones enables the development of systems detecting
+  hazardous situations and collisions in road traffic as well as recognizing and predicting
+  individual driving behavior. This is accelerated by comprehensive equipment of sensors
+  as well as the availability of mobile data transmission networks. Commonly, they
+  rely on motion sensors in combination with frequency analysis and distance algorithms,
+  e.g., dynamic time warping. Moreover, they also use audio and video features for
+  support. Despite a whole range of work in the area of analyzing vehicle’s signals
+  and to the best of our knowledge, there is no reliable procedure for nuanced collision
+  detection in combination with a smartphone as a sensor platform known to us. A segmented
+  detection of collisions itself would be of great value, e.g., in order to relief
+  customers of a car-sharing or car rental service. After a short introduction of
+  related work, we frame the underlying problem of this paper and present our concept
+  for a nuanced collision detection on specific segments of a parked RC-vehicle under
+  the usage of a static-placed smartphone as the only sensor platform. Therefore,
+  we want to create acceleration signal patterns during an offline phase by analyzing
+  recorded sensor data for impacting pushes on specific vehicle segments in x-,y-,
+  and z-direction. Our work, based on repeated collisions with a RC-vehicle, might
+  function as a proof of concept which may be applied to real vehicles later on.
+---
