@@ -1,0 +1,32 @@
+---
+title: 'Ein Internet-Kennzahlensystem für Deutschland: Anforderungen und technische
+  Maßnahmen'
+authors:
+- Sebastian Feld
+- Tim Perrei
+- Norbert Pohlmann
+- Matthias Schupp
+date: '2011-09-01'
+publishDate: '2024-02-14T10:33:06.437089Z'
+publication_types:
+- paper-conference
+publication: '*D-A-CH Security Konferenz 2011 -- Bestandsaufnahme, Konzepte, Anwendungen
+  und Perspektiven*'
+abstract: 'Das Internet ist eine kritische Infrastruktur, deren Verfügbarkeit für
+  die Bürger, Unternehmen und Regierungen der Industrieländer von höchster Bedeutung
+  ist. Um die Komplexität einer solchen Infrastruktur analysieren, den aktuellen Zustand
+  beobachten sowie die zukünftige Entwicklung abschätzen zu können ist der Einsatz
+  eines Kennzahlensystems, wie es bereits in der Betriebswirtschaft breite Anwendung
+  findet, sinnvoll. Für ein solches Internet-Kennzahlensystem stellen sich drei Anforderungen:
+  Es muss die Daten, welche die Kennzahlen bilden werden, erfassen, verarbeiten und
+  visualisieren können. Bei der Realisierung eines solchen Internet-Kennzahlensystems
+  ist insbesondere ein Augenmerk auf die Erhebung der Kennzahlen sinnvoll. Dabei kann
+  zwischen Datenquellen, die ihre Daten selbstständig einliefern, und jenen, deren
+  Daten abgerufen werden müssen, unterschieden werden. Auch wenn das Internet eine
+  globale Infrastruktur ist, so ist ein Kennzahlensystem für ein Internet Deutschland
+  notwendig und sinnvoll. Dabei ist der Geltungsbereich insbesondere durch die Infrastruktur
+  und Dienste gegeben, die direkt für die deutschen Bürger und Unternehmen relevant
+  sind.'
+url_pdf: 
+  http://www.norbert-pohlmann.com/wp-content/uploads/2015/08/281-Ein-Internet-Kennzahlensystem-f%C3%BCr-Deutschland-Anforderungen-und-technische-Ma%C3%9Fnahme-Prof-Norbert-Pohlmann.pdf
+---
