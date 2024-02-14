@@ -1,0 +1,953 @@
+% HUGO ACADEMIC PUBLICTAION TYPES
+%    0 = Uncategorized
+%    1 = Conference paper
+%    2 = Journal article
+%    3 = Preprint / Working Paper
+%    4 = Report
+%    5 = Book
+%    6 = Book section
+%    7 = Thesis (v4.2+ required)
+%    8 = Patent (v4.2+ required)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% BOOKS %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% VORLAGE
+% für hugo: doi
+% für hugo: abstract
+% für hugo: keine url (sonst steht da "pdf")
+% für hugo: keine isbn (kommt eh nicht vor, redundant zu doi)
+% optional: volume ODER number,
+% optional: series, address, edition, month, note, isbn
+%@book{MYKEY,
+%author ODER editor = {},
+%title = {},
+%publisher = {},
+%year = {},
+%}
+
+% Diss
+@book{feld2019alternative,
+author = {Sebastian Feld},
+title = {Alternative Routen in komplexen Umgebungen: Werkzeuge für ortsbezogene Anwendungen und Dienste},
+publisher = {Springer Vieweg},
+year = {2019},
+month = {August},
+doi = {10.1007/978-3-658-26270-9},
+abstract = {Das Buch zeigt verschiedene Ansätze und Verfahren, um alternative Routen in Freiflächen zu berechnen, geospatiale Trajektorien zu vergleichen sowie Strukturen in Gebäuden zu identifizieren. Die Wegefindung in komplexen Umgebungen unterscheidet sich von der in Straßennetzen vor allem dadurch, dass sich eine Person nahezu in alle Richtungen bewegen kann. Das Vorhalten von alternativen Routen für Fußgänger (aber auch für mobile Roboter) in Flughäfen, Krankenhäusern, Messehallen, Parks, Industrieanlagen oder Lagerhallen ermöglicht beispielsweise eine personalisierte Navigation, sodass proaktiv Stau vermieden oder blockierten Bereichen ausgewichen wird. Im ersten Teil des Buches definiert der Autor alternative Routen in komplexen Umgebungen, stellt den Algorithmus zum Berechnen solcher Routen vor und geht auf Qualitätsmetriken sowie Alternativgraphen ein. Im zweiten Teil legt Sebastian Feld unter anderem ein System zum Vergleich von Routen vor, mit dem aus einer Menge von Routen die extremsten Exemplare extrahiert werden können. Schließlich integriert er im dritten Teil des Buches die quantitative Analyse der visuellen Wahrnehmung von Raum in den Kontext alternativer Routen. Damit bietet das Buch einen Werkzeugkasten, der von weiteren ortsbezogenen Anwendungen und Diensten verwendet werden kann.},
+}
+
+% QTOP
+@book{feld2019quantum,
+editor = {Sebastian Feld and Claudia Linnhoff-Popien},
+title = {Quantum Technology and Optimization Problems: First International Workshop, QTOP 2019, Proceedings},
+publisher = {Springer International Publishing},
+year = {2019},
+month = {February},
+doi = {10.1007/978-3-030-14082-3},
+abstract = {This book constitutes the refereed proceedings of the First International Workshop on Quantum Technology and Optimization Problems, QTOP 2019, held in Munich, Germany, in March 2019. The 18 full papers presented together with 1 keynote paper in this volume were carefully reviewed and selected from 21 submissions.  The papers are grouped in the following topical sections: analysis of optimization problems; quantum gate algorithms; applications of quantum annealing; and foundations and quantum technologies.},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% BOOK CHAPTERS %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% VORLAGE
+% für hugo: doi
+% für hugo: abstract
+% für hugo: keine url (sonst steht da "pdf")
+% für hugo: keine isbn (kommt eh nicht vor, redundant zu doi)
+% optional: editor, volume ODER number, series, type,
+% optional: chapter, pages, address, edition, month, note
+%@incollection{MYKEY,
+%author = {},
+%title = {},
+%booktitle = {},
+%publisher = {},
+%year = {},
+%}
+
+% Data Science
+@incollection{werner2017successful,
+author = {Martin Werner and Sebastian Feld},
+title = {Successful Data Science is a Communication Challenge},
+booktitle = {Digital Marketplaces Unleashed},
+publisher = {Springer, Berlin, Heidelberg},
+year = {2017},
+month = {October},
+pages = {583-592},
+editor = {Claudia Linnhoff-Popien and Ralf Schneider and Michael Zaddach},
+doi = {10.1007/978-3-662-49275-8_52},
+abstract = {Currently, we experience a growing number of highly sophisticated digital services in virtually every domain of our lives. Tightly coupled to this observation is the appearance of Big Data and consequently the need for Data Science. When trying to transform data into value, communication is key. However, communication can easily get ambiguous and may threat success by misunderstandings. Thus, this article reviews the (communication) model of Data Science and maps the ten V’s of Big Data to this model. Finally, we propose four top skills that each and every data science group needs to have to operate successfully.},
+}
+
+% InnoMI
+@incollection{linnhoff2017innovationszentrum,
+author = {Claudia Linnhoff-Popien and Sebastian Feld and Martin Werner and Mirco Schönfeld},
+title = {Innovationszentrum Mobiles Internet des ZD.B: Methoden der Digitalisierung in der Arbeitswelt},
+booktitle = {50 Jahre Universitäts-Informatik in München},
+publisher = {Springer Vieweg, Berlin, Heidelberg},
+year = {2017},
+month = {July},
+editor = {Arndt Bode and Manfred Broy and Hans-Joachim Bungartz and Florian Matthes},
+pages = {87-95},
+doi = {10.1007/978-3-662-54712-0_6},
+abstract = {Der digitale Wandel verändert alle Bereiche von Wirtschaft und Gesellschaft. Er erfasst nicht nur einzelne Medien, sondern ganze Prozesse und Branchen: Damit die Wirtschaft die digitale Transformation bewältigen kann, müssen die Netzinfrastruktur, der Zuschnitt der Plattformen und die Bandbreite stimmen, denn Daten müssen zur richtigen Zeit an den richtigen Ort gelangen. Um den digitalen Aufbruch in Bayern zu unterstützen, sowie Wissenschaft und Industrie bei diesen Fragestellungen besser zu vernetzen, ist das Innovationszentrum Mobiles Internet entstanden. Dieses Innovationszentrum ist ein Projekt innerhalb des Zentrum Digitalisierung Bayern (ZD.B), das vom Bayerischen Wirtschaftsministerium finanziert wird. Es hat zum Ziel, die Wirtschaft Bayerns zu stärken, indem Innovationen frühzeitig von der Universität in die Wirtschaft transferiert werden. Entstanden ist es aus der Historie des Lehrstuhls mit zahlreichen namhaften Partnern wie Allianz, BMW, Siemens, Deutsche Telekom u. v. a. m. Dabei hat das Zentrum seine Arbeit in vier Säulen organisiert: Mobiles Internet, Logistik und Tracking, Smart City und Cyber Security. Dieser Artikel stellt konkrete Ergebnisse der wissenschaftlichen Arbeit dieses Zentrums vor.},
+}
+
+% 16 Springer-Buch
+@incollection{beck2015zugangs,
+author = {Michael Till Beck and Sebastian Feld and Thomas Schimper},
+title = {Vom Zugangs- zum Dienstanbieter: Wie Mobilfunkprovider das Internet der Zukunft mitgestalten können},
+booktitle = {Marktplätze im Umbruch: Digitale Strategien für Services im Mobilen Internet},
+publisher = {Springer Vieweg, Berlin, Heidelberg},
+editor = {Claudia Linnhoff-Popien and Michael Zaddach and Andreas Grahl},
+pages = {123-131},
+year = {2015},
+month = {April},
+doi = {10.1007/978-3-662-43782-7_15},
+abstract = {Dieser Beitrag beleuchtet, inwieweit sich Mobilfunkprovider in den letzten Jahren zu Infrastrukturprovidern gewandelt haben, die primär Datenvolumen an externe Dienste weiterleiten, an denen sie selbst finanziell nicht beteiligt sind. Am Beispiel der Mobile Edge Computing Technologie wird erörtert, wie diesem Trend entgegengewirkt werden kann und der Wandel vom Infrastrukturprovider hin zum Dienstanbieter gelingen kann.},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% JOURNALS %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% VORLAGE
+% für hugo: doi
+% für hugo: abstract
+% für hugo: optional publisher (wird aber nicht angezeigt)
+% für hugo: keine url (sonst steht da "pdf")
+% für hugo: keine isbn (kommt eh nicht vor, redundant zu doi)
+% optional: volume, number, pages, month, note
+%@article{MYKEY,
+%author = {},
+%title = {},
+%journal = {},
+%year = {},
+%}
+
+% HQS Paper with Matt
+@ARTICLE{steinberg2022topological,
+author={Matthew A. Steinberg and Sebastian Feld and Carmen G. Almudever and Michael Marthaler and Jan-Michael Reiner},
+journal={IEEE Transactions on Quantum Engineering}, 
+title={Topological-Graph Dependencies and Scaling Properties of a Heuristic Qubit-Assignment Algorithm}, 
+year={2022},
+volume={3},
+number={},
+pages={1-14},
+doi={10.1109/TQE.2022.3160015},
+abstract = {The qubit-mapping problem aims to assign and route qubits of a quantum circuit onto an noisy intermediate-scale quantum (NISQ) device in an optimized fashion, with respect to some cost function. Finding an optimal solution to this problem is known to scale exponentially in computational complexity; as such, it is imperative to investigate scalable qubit-mapping solutions for NISQ computation. In this work, a noise-aware heuristic qubit-assignment algorithm (which assigns initial placements for qubits in a quantum algorithm to qubits on an NISQ device, but does not route qubits during the quantum algorithm's execution) is presented and compared against the optimal brute-force solution, as well as a trivial qubit assignment, with the aim to quantify the performance of our heuristic qubit-assignment algorithm. We find that for small, connected-graph algorithms, our heuristic-assignment algorithm faithfully lies in between the effective upper and lower bounds given by the brute-force and trivial qubit-assignment algorithms. Additionally, we find that the topological-graph properties of quantum algorithms with over six qubits play an important role in our heuristic qubit-assignment algorithm's performance on NISQ devices. Finally, we investigate the scaling properties of our heuristic algorithm for quantum processors with up to 100 qubits; here, the algorithm was found to be scalable for quantum-algorithms that admit path-like graphs. Our findings show that as the size of the quantum processor in our simulation grows, so do the benefits from utilizing the heuristic qubitassignment algorithm, under particular constraints for our heuristic algorithm. This work, thus, characterizes the performance of a heuristic qubit-assignment algorithm with respect to the topological-graph and scaling properties of a quantum algorithm that one may wish to run on a given NISQ device.},
+}
+
+% CVRP
+% CORE -
+@article{feld2019hybrid,
+author = {Sebastian Feld and Christoph Roch and Thomas Gabor and Christian Seidel and Florian Neukart and Isabella Galter and Wolfgang Mauerer and Claudia Linnhoff-Popien},
+title = {A Hybrid Solution Method for the Capacitated Vehicle Routing Problem Using a Quantum Annealer},
+journal = {Frontiers in ICT},
+volume = {6},
+year = {2019},
+month = {June},
+doi = {10.3389/fict.2019.00013},
+url = {http://www.frontiersin.org/articles/10.3389/fict.2019.00013/pdf},
+abstract = {The Capacitated Vehicle Routing Problem (CVRP) is an NP-optimization problem (NPO) that has been of great interest for decades for both, science and industry. The CVRP is a variant of the vehicle routing problem characterized by capacity constrained vehicles. The aim is to plan tours for vehicles to supply a given number of customers as efficiently as possible. The problem is the combinatorial explosion of possible solutions, which increases superexponentially with the number of customers. Classical solutions provide good approximations to the globally optimal solution. D-Wave's quantum annealer is a machine designed to solve optimization problems. This machine uses quantum effects to speed up computation time compared to classic computers. The problem on solving the CVRP on the quantum annealer is the particular formulation of the optimization problem. For this, it has to be mapped onto a quadratic unconstrained binary optimization (QUBO) problem. Complex optimization problems such as the CVRP can be translated to smaller subproblems and thus enable a sequential solution of the partitioned problem. This work presents a quantum-classic hybrid solution method for the CVRP. It clarifies whether the implementation of such a method pays off in comparison to existing classical solution methods regarding computation time and solution quality. Several approaches to solving the CVRP are elaborated, the arising problems are discussed, and the results are evaluated in terms of solution quality and computation time.},
+}
+
+% Journal aus LBS-Paper
+% CORE C
+@article{sedlmeier2018learning,
+author = {Andreas Sedlmeier and Sebastian Feld},
+title = {Learning Indoor Space Perception},
+journal = {Journal of Location Based Services},
+volume = {12},
+number = {3-4},
+year = {2018},
+month = {November},
+pages = {179-214},
+doi = {10.1080/17489725.2018.1539255},
+publisher = {Taylor & Francis},
+abstract = {Human perception of location and space forms the basis upon which the interaction with location-based services (LBS) takes place. Our work aims to develop a shared awareness and common understanding of location and space,between machines and their users by building upon research into the numerical representation of the visual perception of space. Different structures in buildings like rooms, hallways and doorways form different, corresponding patterns in these representations. Thanks to recent advances in the field of deep learning with neural networks, it now seems possible to explore the idea of automatically learning these recurring structures. This article presents a complete framework: starting from the collection of isovist measures along geospatial trajectories on indoor floor plans,over statistical data analysis, the unsupervised extraction of meaningful structure, up to the training of models that generalize to different environments. We show that isovist measures do reflect the recurring structures found in different buildings, that these recurring patterns are encoded in the data in a way that unsupervised machine learning can identify them andthat the identified structures are meaningful as they represent human relatable concepts.Furthermore, we propose to use cluster similarity analysis as a promising concept for quantifying visual perception similarity.},
+}
+
+% 10 BITCOIN Journal
+% CORE -
+@article{feld2016traversing,
+author = {Sebastian Feld and Mirco Schönfeld and Martin Werner},
+title = {Traversing Bitcoin’s P2P Network: Insights into the Structure of a Decentralized Currency},
+journal = {International Journal of Computational Science and Engineering},
+volume = {13},
+number = {2},
+pages = {122-131},
+year = {2016},
+month = {January},
+doi = {10.1504/IJCSE.2016.078441},
+publisher = {Inderscience Publishers},
+abstract = {Lots of existing work addresses the analysis of Bitcoin's publicly available transaction graph. There are evaluations of the user's anonymity and privacy, but no proper measurements of the underlying network. This paper presents novel insights about Bitcoin's P2P network, with a focus on the distribution among autonomous systems. The resilience of Bitcoin's ecosystem, the unambiguousness of the blockchain, the propagation and verification of transaction blocks, but also the anonymity of Bitcoin's users depend on the structure of the global network. Our work is the first thorough analysis of Bitcoin's underlying network, especially with regard to its distribution at autonomous system level. We traversed Bitcoin's network and made statements about the size of the accessible network and the number of clients. Further, we investigated the network's distribution on autonomous systems. Finally, we analysed the mechanism to announce known peers. It turns out that Bitcoin's peer announcement is not well-distributed, affecting information propagation.},
+}
+
+% 9 ALPACA Journal
+% CORE -
+@article{dorfmeister2014alpaca,
+author = {Florian Dorfmeister and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {ALPACA: A Decentralized, Privacy-Centric and Context-Aware Framework for the Dissemination of Context Information},
+journal = {International Journal On Advances in Intelligent Systems},
+volume = {7},
+number = {1&2},
+year = {2014},
+month = {July},
+pages = {223-236},
+url = {https://www.iariajournals.org/intelligent_systems/intsys_v7_n12_2014_paged.pdf},
+abstract = {With the ongoing rise of smartphones as everyday mobile devices and their steadily increasing amount of sensing and communication capabilities, we are on the brink of a subtle, widespread adoption of context-aware computing techniques into our daily lives. Focusing on functionality and performance, the majority of existing architectures for managing context information typically deploy central components for collecting, analyzing and distributing its users’ up-to-date data. However, preservation of users’ privacy needs remains a crucial factor for such systems’ acceptableness. Inspired by existing works on privacy in context-aware applications and the authors’ beliefs in the necessity to put users back in control, this article adopts a privacy-centric perspective and presents ALPACA: A novel approach for modeling and managing a user’s rich context information in a user-centric and privacy-preserving way fit for a multitude of different usage scenarios. To this end, this article offers a general conceptual mapping of a user’s privacy needs to distinct layers. Based on this conceptualization we introduce a privacy-centric approach for modeling this information. Additionally, we propose a context-aware mechanism for the definition of context-dependent release triggers in order to enable fine-grained control over the disclosure of sensitive information. Finally, we present the components of the proposed system architecture, explain how they interact with each other and discuss how our framework can be integrated into a modern mobile operating system.},
+}
+
+% Vorgänger war: „Neue Möglichkeiten mit Web 2.0 und die damit verbundenen Gefahren und Risiken“, Sebastian Feld, Norbert Pohlmann, Sebastian Spooren. Institut für Internet-Sicherheit | if(is), 04/2008.
+% CORE -
+% für hugo: abstract
+% für hugo: optional publisher (wird aber nicht angezeigt)
+% für hugo: keine url (sonst steht da "pdf")
+% für hugo: keine isbn (kommt eh nicht vor, redundant zu doi)
+@article{feld2009gefahren,
+author = {Sebastian Feld and Norbert Pohlmann and Sebastian Spooren},
+title = {Gefahren und Risiken bei Web 2.0},
+journal = {HMD Praxis der Wirtschaftsinformatik},
+volume = {46},
+number = {3},
+year = {2009},
+month = {June},
+pages = {104-112},
+doi = {10.1007/BF03340368},
+abstract = {Web 2.0 scheint für die vernetzte Wissens- und Informationsgesellschaft neue und interessante Anwendungs- und Geschäftsmöglichkeiten zu bieten. Dazu müssen -- wie bei jeder neuen Technologie -- auch die Gefahren und Risiken, wie der Umgang mit vertrauenswürdigen Daten, analysiert und berücksichtigt werden. Um die mit dem Einsatz der Web 2.0-Technologie verbundenen Gefahren und Risiken auf ein mögliches Minimum zu reduzieren, müssen die Nutzer solcher Lösungen auf Basis von Sicherheitsplattformen, wie zum Beispiel Turaya, auf ein sehr viel höheres Level der Vertrauenswürdigkeit von IT-Systemen aufbauen, damit ein weiterer Forschritt im Internet ermöglicht werden kann. Im Artikel werden dazu technische Sicherheitsmaβnahmen aufgezeigt und der Umgang mit Web 2.0 in puncto Sicherheit auf unterschiedlichen Ebenen ausführlich diskutiert.},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% CONFERENCE & WORKSHOP PROCEEDINGS %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% VORLAGE
+% für hugo: doi
+% für hugo: abstract
+% für hugo: keine url (sonst steht da "pdf")
+% optional: editor, volume ODER number, series, pages
+% optional: address, month, organization, publisher, note
+%@inproceedings{MYKEY,
+%author = {},
+%title = {},
+%booktitle = {},
+%year = {},
+%}
+
+% Algorithmic QUBOS with Jonas Nuesslein
+% CORE A (Paper war aber auf QuantuOp Workshop)
+@misc{nuesslein2022algorithmic,
+author = {Nuesslein, Jonas and Gabor, Thomas and Linnhoff-Popien, Claudia and Feld, Sebastian},
+title = {Algorithmic QUBO formulations for k-SAT and hamiltonian cycles},
+booktitle = {23rd Genetic and Evolutionary Computation Conference (GECCO 2022)},
+year = {2022},
+pages = {7},
+url = {https://dl.acm.org/doi/pdf/10.1145/3520304.3533952},
+abstract = {Quadratic Unconstrained Binary Optimization (QUBO) can be seen as a generic language for optimization problems. QUBOs attract particular attention since they can be solved with quantum hardware, like quantum annealers or quantum gate computers running QAOA. In this paper, we present two novel QUBO formulations for k-SAT and Hamiltonian Cycles that scale significantly better than existing approaches. For k-SAT we reduce the growth of the QUBO matrix from O(k) to O(log(k)). For Hamiltonian Cycles the matrix no longer grows quadratically in the number of nodes, as currently, but linearly in the number of edges and logarithmically in the number of nodes. We present these two formulations not as mathematical expressions, as most QUBO formulations are, but as meta-algorithms that facilitate the design of more complex QUBO formulations and allow easy reuse in larger and more complex QUBO formulations.},
+}
+
+% Stable Marriage with Chris
+% CORE C
+@misc{roch2022quantum,
+author = {Roch, Christoph and Winderl, David and Linnhoff-Popien, Claudia and Feld, Sebastian},
+title = {A Quantum Annealing Approach for Solving Hard Variants of the Stable Marriage Problem},
+booktitle = {22nd International Conference on Innovations for Community Services (I4CS 2022)},
+year = {2022},
+pages = {14},
+doi = {https://doi.org/10.1007/978-3-031-06668-9_21},
+abstract = {The Stable Marriage Problem (SMP) describes the problem, of finding a stable matching between two equally sized sets of elements (e.g., males and females) given an ordering of preferences for each element. A matching is stable, when there does not exist any match of a male and female which both prefer each other to their current partner under the matching. Finding such a matching of maximum cardinality, when ties and incomplete preference lists are allowed, is called MAX-SMTI and is an NP-hard variation of the SMP. In this work a Quadratic Unconstrained Binary Optimization (QUBO) formulation for MAX-SMTI is introduced and solved both with D-Wave Systems quantum annealing hardware and by their classical meta-heuristic QBSolv. Both approaches are reviewed against existing state-of-the-art approximation algorithms for MAX-SMTI. Additionally, the proposed QUBO problem can also be used to count stable matchings in SMP instances, which is proven to be a #P-complete problem. The results show, that the proposed (quantum) methods can compete with the classical ones regarding the solution quality and might be a relevant alternative, when quantum hardware scales with respect to the number of qubits and their connectivity.},
+}
+
+% DATE Invited Talk with Medina
+% CORE B
+@misc{bandic2022full,
+author = {Bandic, Medina and Feld, Sebastian and Almudever, Carmen G.},
+title = {Full-stack quantum computing systems in the NISQ era: algorithm-driven and hardware-aware compilation techniques},
+booktitle = {Design, Automation and Test in Europe Conference (DATE 2022)},
+year = {2022},
+pages = {6},
+url = {https://arxiv.org/pdf/2204.06369.pdf},
+abstract = {The progress in developing quantum hardware with functional quantum processors integrating tens of noisy qubits, together with the availability of near-term quantum algorithms has led to the release of the first quantum computers. These quantum computing systems already integrate different software and hardware components of the so-called "full-stack", bridging quantum applications to quantum devices. In this paper, we will provide an overview on current full-stack quantum computing systems. We will emphasize the need for tight co-design among adjacent layers as well as vertical cross-layer design to extract the most from noisy intermediate-scale quantum (NISQ) processors which are both error-prone and severely constrained in resources. As an example of co-design, we will focus on the development of hardware-aware and algorithm-driven compilation techniques.},
+}
+
+% QAOA Chris
+% -
+@inproceedings{roch2020cross,
+author = {Christoph Roch and Alexander Impertro and Thomy Phan and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {Cross Entropy Hyperparameter Optimization for Constrained Problem Hamiltonians Applied to QAOA},
+booktitle = {5th IEEE International Conference on Rebooting Computing (IEEE ICRC 2020)},
+year = {2020},
+month = {December},
+pages = {7},
+url = {https://arxiv.org/abs/2003.05292},
+abstract = {Hybrid quantum-classical algorithms such as the Quantum Approximate Optimization Algorithm (QAOA) are considered as one of the most encouraging approaches for taking advantage of near-term quantum computers in practical applications. Such algorithms are usually implemented in a variational form, combining a classical optimization method with a quantum machine to find good solutions to an optimization problem. The solution quality of QAOA depends to a high degree on the parameters chosen by the classical optimizer at each iteration. However, the solution landscape of those parameters is highly multi-dimensional and contains many low-quality local optima. In this study we apply a Cross-Entropy method to shape this landscape, which allows the classical optimizer to find better parameter more easily and hence results in an improved performance. We empirically demonstrate that this approach can reach a significant better solution quality for the Knapsack Problem.},
+}
+
+% PCMP (BA Hennes)
+% CORE A (Poster Paper)
+@inproceedings{hahn2020predictive,
+author = {Carsten Hahn and Sebastian Feld and Hannes Schroter},
+title = {Predictive Collision Management for Time and Risk Dependent Path Planning},
+booktitle = {28th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2020)},
+year = {2020},
+month = {November},
+pages = {4},
+url = {https://arxiv.org/abs/2011.13305},
+abstract = {Autonomous agents such as self-driving cars or parcel robots need to recognize and avoid possible collisions with obstacles in order to move successfully in their environment. Humans, however, have learned to predict movements intuitively and to avoid obstacles in a forward-looking way. The task of collision avoidance can be divided into a global and a local level. Regarding the global level, we propose an approach called "Predictive Collision Management Path Planning" (PCMP). At the local level, solutions for collision avoidance are used that prevent an inevitable collision. Therefore, the aim of PCMP is to avoid unnecessary local collision scenarios using predictive collision management. PCMP is a graph-based algorithm with a focus on the time dimension consisting of three parts: (1) movement prediction, (2) integration of movement prediction into a time-dependent graph, and (3) time and risk-dependent path planning. The algorithm combines the search for a shortest path with the question: is the detour worth avoiding a possible collision scenario? We evaluate the evasion behavior in different simulation scenarios and the results show that a risk-sensitive agent can avoid 47.3% of the collision scenarios while making a detour of 1.3%. A risk-averse agent avoids up to 97.3% of the collision scenarios with a detour of 39.1%. Thus, an agent's evasive behavior can be controlled actively and risk-dependent using PCMP.},
+}
+
+% Idling Cars
+% CORE -
+@inproceedings{illium2020what,
+author = {Steffen Illium and Philipp Friese and Robert Müller and Sebastian Feld},
+title = {What to do in the Meantime : A Service Coverage Analysis for Parked Autonomous Vehicles},
+booktitle = {23rd AGILE International Conference on Geographic Information Science (AGILE 2020)},
+year = {2020},
+month = {June},
+pages = {15},
+doi = {10.5194/agile-giss-1-7-2020},
+abstract = {Fully autonomously driving vehicles are expected to be a widely available technology in the near future. Privately owned cars, which remain parked for the majority of their lifetime, may therefore be capable of driving independently during their usual long parking periods (e.g. their owners working hours). Our analysis aims to focus on the potential of a privately owned shared car concept as transition period between the present usages of privately owned cars towards a transportation paradigm of privately owned shared autonomous vehicles. We propose two methods in the field of reachability analysis to evaluate the impact of such vehicles during parking periods. Our proposed methods are applied to a dataset of parking times of users of a telematics service provider in the Munich area (Germany). We show the impact of time and location dependent effects on the analyzed service coverage, such as business week rush hours or coverage divergence between urban and suburban regions.},
+}
+
+% CSG Optimization
+% CORE B
+@inproceedings{friedrich2020flexible,
+author = {Markus Friedrich and Christoph Roch and Sebastian Feld and Carsten Hahn and Pierre-Alain Fayolle},
+title = {A Flexible Pipeline for the Optimization of Construction Trees},
+booktitle = {28th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG 2020)},
+year = {2020},
+month = {May},
+pages = {10},
+url = {http://wscg.zcu.cz/wscg2020/Full/F71.pdf},
+doi = {10.24132/CSRN.2020.3001.10},
+abstract = {Construction trees are an intuitive, yet powerful technique for the representation of geometry using a combination of Boolean set-operations and geometric primitives. In general, there exist an infinite number of trees all describing the same 3D solid. However, some trees are optimal regarding the number of used operations, their shape or other attributes, like their suitability for intuitive, human-controlled editing. In this paper, we present a systematic comparison of newly developed, as well, as already existing tree optimization methods and propose a flexible and scalable processing pipeline consisting of the aforementioned techniques with a focus on tree editability. In addition, we introduce a new quantitative measure for construction tree editability and show how it can be used as a constraint in the optimization process.},
+}
+
+% STEP
+% - (Workshop bei AAMAS (A*))
+@inproceedings{phan2020distributed,
+author = {Thomy Phan and Lenz Belzner and Kyrill Schmid and Thomas Gabor and Fabian Ritz and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation},
+booktitle = {12th Adaptive and Learning Agents Workshop (ALA 2020)},
+year = {2020},
+month = {May},
+pages = {9},
+abstract = {We propose Stable Emergent Policy (STEP) approximation, a distributed policy iteration scheme to stably approximate decentralized policies for partially observable and cooperative multi-agent systems. STEP offers a novel training architecture, where function approximation is used to learn from action recommendations of a decentralized planning algorithm. Planning is enabled by exploiting a training simulator, which is assumed to be available during centralized learning, and further enhanced by reintegrating the learned policies. We experimentally evaluate STEP in two challenging and stochastic domains, and compare its performance with state-of-the-art multi-agent reinforcement learning algorithms.},
+}
+
+% Q-Nash
+% CORE A
+@inproceedings{roch2020quantum,
+author = {Christoph Roch and Thomy Phan and Sebastian Feld and Robert Müller and Thomas Gabor and Carsten Hahn and Claudia Linnhoff-Popien},
+title = {A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games},
+booktitle = {20th International Conference on Computational Science (ICCS 2020)},
+year = {2020},
+month = {June},
+pages = {12},
+url = {https://www.iccs-meeting.org/archive/iccs2020/papers/121420466.pdf},
+doi = {10.1007/978-3-030-50433-5_38},
+abstract = {We introduce Q-Nash, a quantum annealing algorithm for the NP-complete problem of finding pure Nash equilibria in graphical games. The algorithm consists of two phases. The first phase determines all combinations of best response strategies for each player using classical computation. The second phase finds pure Nash equilibria using a quantum annealing device by mapping the computed combinations to a quadratic unconstrained binary optimization formulation based on the Set Cover problem. We empirically evaluate Q-Nash on D-Wave’s Quantum Annealer 2000Q using different graphical game topologies. The results with respect to solution quality and computing time are compared to a Brute Force algorithm and the Iterated Best Response heuristic.},
+}
+
+% Holy Grail
+% CORE -
+@inproceedings{gabor2020holy,
+author = {Thomas Gabor and Leo Sünkel and Fabian Ritz and Thomy Phan and Lenz Belzner and Christoph Roch and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {The Holy Grail of Quantum Artificial Intelligence: Challenges in Accelerating the Machine Learning Pipeline},
+booktitle = {1st International Workshop on Quantum Software Engineering (Q-SE 2020)},
+year = {2020},
+month = {May},
+pages = {6},
+url = {http://arxiv.org/abs/2004.14035},
+abstract = {We discuss the synergetic connection between quantum computing and artificial intelligence. After surveying current approaches to quantum artificial intelligence and relating them to a formal model for machine learning processes, we deduce four major challenges for the future of quantum artificial intelligence: (i) Replace iterative training with faster quantum algorithms, (ii) distill the experience of larger amounts of data into the training process, (iii) allow quantum and classical components to be easily combined and exchanged, and (iv) build tools to thoroughly analyze if observed benefits really stem from quantum properties of the algorithm.},
+}
+
+% Learn QUBOs
+% CORE -
+@inproceedings{gabor2020insights,
+author = {Thomas Gabor and Sebastian Feld and Hila Safi and Thomy Phan and Claudia Linnhoff-Popien},
+title = {Insights on Training Neural Networks for QUBO Tasks},
+booktitle = {1st International Workshop on Quantum Software Engineering (Q-SE 2020)},
+year = {2020},
+month = {May},
+pages = {6},
+url = {http://arxiv.org/abs/2004.14036},
+abstract = {Current hardware limitations restrict the potential when solving quadratic unconstrained binary optimization (QUBO) problems via the quantum approximate optimization algorithm (QAOA) or quantum annealing (QA). Thus, we consider training neural networks in this context. We first discuss QUBO problems that originate from translated instances of the traveling salesman problem (TSP): Analysing this representation via autoencoders show that there is way more information included than necessary to solve the original TSP. Then we show that neural networks can be used to solve TSP instances from both, QUBO input and autoencoders’ hidden state representation. We finally generalize the approach and successfully train neural networks to solve arbitrary QUBO problems, sketching means to use neuromorphic hardware as a simulator or an additional co-processor for quantum computing.},
+}
+
+% Archetypal Analysis
+% CORE B
+@inproceedings{feld2020approximating,
+author = {Sebastian Feld and Christoph Roch and Katja Geirhos and Thomas Gabor},
+title = {Approximating Archetypal Analysis Using Quantum Annealing},
+booktitle = {28th European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning (ESANN 2020)},
+year = {2020},
+month = {October},
+pages = {6},
+url = {https://www.esann.org/sites/default/files/proceedings/2020/ES2020-195.pdf},
+abstract = {Archetypes are those extreme values of a data set that can jointly represent all other data points. They often have descriptive meanings and can thus contribute to the understanding of the data. Such archetypes are identified using archetypal analysis and all data points are represented as convex combinations thereof. In this work, archetypal analysis is linked with quantum annealing. For both steps, i.e. the determination of archetypes and the assignment of data points, we derive a QUBO formulation which is solved on D-Wave’s 2000Q Quantum Annealer. For selected data sets, called toy and iris, our quantum annealing-based approach can achieve similar results to the original R-package archetypes.},
+}
+
+% Ausdünnen
+% CORE -
+@inproceedings{sax2020approximate,
+author = {Irmengard Sax and Sebastian Feld and Sebastian Zielinski and Thomas Gabor and Claudia Linnhoff-Popien and Wolfgang Mauerer},
+title = {Approximate Approximation on a Quantum Annealer},
+booktitle = {17th ACM International Conference on Computing Frontiers (ACM CF 2020)},
+url = {https://arxiv.org/abs/2004.09267},
+year = {2020},
+month = {May},
+pages = {9},
+doi = {10.1145/3387902.3392635},
+abstract = {Many problems of industrial interest are NP-complete, and quickly exhaust resources of computational devices with increasing input sizes. Quantum annealers (QA) are physical devices that aim at this class of problems by exploiting quantum mechanical properties of nature. However, they compete with efficient heuristics and probabilistic or randomised algorithms on classical machines that allow for finding approximate solutions to large NP-complete problems. While first implementations of QA have become commercially available, their practical benefits are far from fully explored. To the best of our knowledge, approximation techniques have not yet received substantial attention. In this paper, we explore how problems’ approximate versions of varying degree can be systematically constructed for quantum annealer programs, and how this influences result quality or the handling of larger problem instances on given set of qubits. We illustrate various approximation techniques on both, simulations and real QA hardware, on different seminal problems, and interpret the results to contribute towards a better understanding of the real-world power and limitations of current-state and future quantum computing.},
+}
+
+% Q-DTW
+% CORE -
+@inproceedings{feld2020dynamic,
+author = {Sebastian Feld and Christoph Roch and Thomas Gabor and Michelle To and Claudia Linnhoff-Popien},
+title = {The Dynamic Time Warping Distance Measure as QUBO Formulation},
+booktitle = {5th International Conference on Computer and Communication Systems (ICCCS 2020)},
+year = {2020},
+month = {May},
+pages = {5},
+doi = {10.1109/ICCCS49078.2020.9118469},
+abstract = {Dynamic Time Warping (DTW) is a representative of a distance measure that is able to calculate the distance between two time series. It is often used for the recognition of handwriting or spoken language. The metaheuristic Quantum Annealing (QA) can be used to solve combinatorial optimization problems. Similar to Simulated Annealing it seeks to find a global minimum of a target function. In order to use specialized QA hardware, the problem to be optimized needs to be translated into a Quadratic Unconstrained Binary Optimization (QUBO) problem. With this paper we investigate whether it is possible to transfer the DTW distance measure into a QUBO formulation. The motivation behind is the hope on an accelerated execution once the QA hardware scales up and the aspiration of gaining benefits due to quantum effects that are not given in the classical calculation. In principle, we find that it is possible to transform DTW into a QUBO formulation suitable for executing on QA hardware. Also, the algorithm returns not only the minimum total distance between two sequences, but also the corresponding warping path. However, there are several difficulties that make a manual intervention necessary.},
+}
+
+% UQ
+% CORE -
+@inproceedings{gabor2020uq,
+author = {Thomas Gabor and Sebastian Zielinski and Christoph Roch and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {The UQ Platform: A Unified Approach To Quantum Annealing},
+booktitle = {5th International Conference on Computer and Communication Systems (ICCCS 2020)},
+year = {2020},
+month = {May},
+pages = {5},
+doi = {10.1109/ICCCS49078.2020.9118547},
+abstract = {Quantum Annealing is an algorithm for solving instances of quadratic unconstrained binary optimization (QUBO) that is implemented in hardware utilizing quantum effects to quickly find approximate solutions. However, QUBO can obviously also be solved by any classical optimization technique, for which various implementations exist. The UQ platform provides a unified interface to various means of solving QUBO that allows for a seamless switch between classical and quantum methods while implementing features such as load and user management.},
+}
+
+% Schwarm-Nash
+% CORE C
+@inproceedings{hahn2020nash,
+author = {Carsten Hahn and Thomy Phan and Sebastian Feld and Christoph Roch and Fabian Ritz and Andreas Sedlmeier and Thomas Gabor and Claudia Linnhoff-Popien},
+title = {Nash Equilibria in Multi-Agent Swarms},
+booktitle = {12th International Conference on Agents and Artificial Intelligence (ICAART 2020)},
+year = {2020},
+month = {February},
+pages = {9},
+abstract = {In various settings in nature or robotics, swarms offer various benefits as a structure that can be joined easily and locally but still offers more resilience or efficiency at performing certain tasks. When these benefits are rewarded accordingly, even purely self-interested multi-agent reinforcement learning systems will thus learn to form swarms for each individual’s benefit. In this work we show, however, that under certain conditions swarms also pose Nash equilibria when interpreting the agents’ given task as multi-player game. We show that these conditions can be achieved by altering the area size (while allowing individual action choices) in a setting known from literature. We conclude that aside from offering valuable benefits to rational agents, swarms may also form due to pressuring deviants from swarming behavior into joining the swarm as is typical for Nash equilibria in social dilemmas.},
+url={https://www.scitepress.org/Papers/2020/89908/89908.pdf},
+}
+
+% Bayesian Surprise
+% CORE A
+@inproceedings{feld2020bayesian,
+author = {Sebastian Feld and Andreas Sedlmeier and Markus Friedrich and Jan Franz and Lenz Belzner},
+title = {Bayesian Surprise in Indoor Environments},
+booktitle = {27th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2019)},
+year = {2019},
+month = {November},
+pages = {10},
+doi = {10.1145/3347146.3359358},
+url = {http://arxiv.org/abs/2004.05381},
+abstract = {This paper proposes a novel method to identify unexpected structures in 2D floor plans using the concept of Bayesian Surprise. Taking into account that a person’s expectation is an important aspect of the perception of space, we exploit the theory of Bayesian Surprise to robustly model expectation and thus surprise in the context of building structures. We use Isovist Analysis, which is a popular space syntax technique, to turn qualitative object attributes into quantitative environmental information. Since isovists are location-specific patterns of visibility, a sequence of isovists describes the spatial perception during a movement along multiple points in space. We then use Bayesian Surprise in a feature space consisting of these isovist readings. To demonstrate the suitability of our approach, we take snapshots of an agent’s local environment to provide a short list of images that characterize a traversed trajectory through a 2D indoor environment. Those fingerprints represent surprising regions of a tour, characterize the traversed map and enable indoor LBS to focus more on important regions. Given this idea, we propose to use surprise as a new dimension of context in indoor location-based services (LBS). Agents of LBS, such as mobile robots or non-player characters in computer games, may use the context surprise to focus more on important regions of a map for a better use or understanding of the floor plan.},
+}
+
+% DevOps
+% CORE C
+@inproceedings{figalist2019supporting,
+author = {Iris Figalist and Andreas Biesdorf and Christoph Brand and Sebastian Feld and Marie Kiermeier},
+title = {Supporting the DevOps Feedback Loop using Unsupervised Learning},
+booktitle = {IEEE International Conference in Innovations in Intelligent Systems and Applications (IEEE INISTA 2019)},
+year = {2019},
+month = {July},
+pages = {6},
+doi = {10.1109/INISTA.2019.8778283},
+abstract = {Nowadays, software systems and applications need to adapt rapidly to changing requirements and evolve in an agile manner. This creates the need for independent deployments, e.g. as part of DevOps. Due to the flexibility and fast release cycles comprised by DevOps, continuous monitoring and the generation of feedback is crucial to a system’s quality, especially if it is continuously developed. For this purpose, we propose a feedback system that combines operations data with development data in order to trace anomalies occurring in production back to their root cause by defining patterns, detecting anomalous behavior, and generating feedback that is transferred back into the development process. To this end, we utilize two different unsupervised machine learning techniques, the k-means clustering and the archetypal analysis, to describe the data set and use the results as a basis to characterize the behavior of new data points as either normal or anomalous. The feedback system was tested and evaluated using real data produced by an application that is currently developed within a large, industrial company and serves as a link to support the loop of continuous planning, development, deployment, monitoring, and feedback.},
+}
+
+% 3SAT
+% -
+@inproceedings{gabor2019assessing,
+author = {Thomas Gabor and Sebastian Zielinski and Sebastian Feld and Christoph Roch and Christian Seidel and Florian Neukart and Isabella Galter and Wolfgang Mauerer and Claudia Linnhoff-Popien},
+title = {Assessing Solution Quality of 3SAT on a Quantum Annealing Platform},
+booktitle = {1st International Workshop on Quantum Technology and Optimization Problems (QTOP 2019)},
+year = {2019},
+month = {March},
+pages = {13},
+doi = {10.1007/978-3-030-14082-3_3},
+url = {http://www.arxiv.org/abs/1902.04703},
+abstract = {When solving propositional logic satisfiability (specifically 3SAT) using quantum annealing, we analyze the effect the difficulty of different instances of the problem has on the quality of the answer returned by the quantum annealer. A high-quality response from the annealer in this case is defined by a high percentage of correct solutions among the returned answers. We show that the phase transition regarding the computational complexity of the problem, which is well-known to occur for 3SAT on classical machines (where it causes a detrimental increase in runtime), persists in some form (but possibly to a lesser extent) for quantum annealing.},
+}
+
+% STEP (EA)
+% CORE A*
+@inproceedings{phan2019distributed,
+author = {Thomy Phan and Kyrill Schmid and Lenz Belzner and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies (Extended Abstract)},
+booktitle = {18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS 2019)},
+year = {2019},
+month = {May},
+pages = {3},
+url = {http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2162.pdf},
+abstract = {Decision making in multi-agent systems (MAS) is a great challenge due to enormous state and joint action spaces as well as uncertainty, making centralized control generally infeasible. Decentralized control offers better scalability and robustness but requires mechanisms to coordinate on joint tasks and to avoid conflicts. Common approaches to learn decentralized policies for cooperative MAS suffer from non-stationarity and lacking credit assignment, which can lead to unstable and uncoordinated behavior in complex environments. In this paper, we propose Strong Emergent Policy approximation (STEP), a scalable approach to learn strong decentralized policies for cooperative MAS with a distributed variant of policy iteration. For that, we use function approximation to learn from action recommendations of a decentralized multi-agent planning algorithm. STEP combines decentralized multi-agent planning with centralized learning, only requiring a generative model for distributed black box optimization. We experimentally evaluate STEP in two challenging and stochastic domains with large state and joint action spaces and show that STEP is able to learn stronger policies than standard multi-agent reinforcement learning algorithms, when combining multi-agent open-loop planning with centralized function approximation. The learned policies can be reintegrated into the multi-agent planning process to further improve performance.},
+}
+
+% BA Manuel
+% CORE C
+@inproceedings{hahn2019dynamic,
+author = {Carsten Hahn and Sebastian Feld and Manuel Zierl and Claudia Linnhoff-Popien},
+title = {Dynamic Path Planning with Stable Growing Neural Gas},
+booktitle = {11th International Conference on Agents and Artificial Intelligence (ICAART 2019)},
+year = {2019},
+month = {February},
+pages = {8},
+doi = {10.5220/0007313001380145},
+url = {http://www.insticc.org/Primoris/Resources/PaperPdf.ashx?idPaper=73130},
+abstract = {This paper considers the problem of path planning under dynamic aspects. We propose Neural Gas Dynamic Path Planning (NGDPP), a novel algorithm that continuously provides a valid path between two points inside an environment that transforms in an unpredictable manner. These transformations can occur due to both, changes in the environment’s shape and moving collision objects. The algorithm incorporates several techniques: Neural Gas, a dynamic discretization method; the A* Algorithm, a path planning algorithm for graphs; and the Potential Field method, which facilitates the avoidance of collisions. We empirically evaluate the proposed algorithm under various aspects providing performance information and guidance about situations and applications benefiting from the algorithm. The evaluation reveals that NGDPP is a solid algorithm for path planning in dynamic environments. Yet, the algorithm is based on heuristic information, i.e. a optimal result in term of the path length cannot be guaranteed.},
+}
+
+% Globecom-Workshop
+% CORE - (Globecom: CORE B)
+% Acceptance Rate 36% (16/44)
+@inproceedings{feld2018optimizing,
+author = {Sebastian Feld and Markus Friedrich and Claudia Linnhoff-Popien},
+title = {Optimizing Geometry Compression using Quantum Annealing},
+booktitle = {IEEE Workshop on Quantum Communications and Information Technology 2018 (IEEE QCIT 2018)},
+year = {2018},
+month = {December},
+pages = {6},
+doi = {10.1109/GLOCOMW.2018.8644358},
+url = {http://www.arxiv.org/abs/2003.13253},
+abstract = {The compression of geometry data is an important aspect of bandwidth-efficient data transfer for distributed 3d computer vision applications. We propose a quantum-enabled lossy 3d point cloud compression pipeline based on the constructive solid geometry (CSG) model representation. Key parts of the pipeline are mapped to NP-complete problems for which an efficient Ising formulation suitable for the execution on a Quantum Annealer exists. We describe existing Ising formulations for the maximum clique search problem and the smallest exact cover problem, both of which are important building blocks of the proposed compression pipeline. Additionally, we discuss the properties of the overall pipeline regarding result optimality and described Ising formulations.},
+}
+
+% MA Steffen
+% CORE A
+% Acceptance Rate 20% (30/150)
+@inproceedings{feld2018trajectory,
+author = {Sebastian Feld and Steffen Illium and Andreas Sedlmeier and Lenz Belzner},
+title = {Trajectory Annotation Using Sequences of Spatial Perception},
+booktitle = {26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (ACM SIGSPATIAL 2018)},
+year = {2018},
+month = {November},
+pages = {10},
+doi = {10.1145/3274895.3274968},
+url = {http://arxiv.org/abs/2004.05383},
+abstract = {In the near future, more and more machines will perform tasks in the vicinity of human spaces or support them directly in their spatially bound activities. In order to simplify the verbal communication and the interaction between robotic units and/or humans, reliable and robust systems w.r.t. noise and processing results are needed. This work builds a foundation to address this task. By using a continuous representation of spatial perception in interiors learned from trajectory data, our approach clusters movement in dependency to its spatial context. We propose an unsupervised learning approach based on a neural autoencoding that learns semantically meaningful continuous encodings of spatio-temporal trajectory data. This learned encoding can be used to form prototypical representations. We present promising results that clear the path for future applications.},
+}
+
+% 3D Feature Stacks
+% CORE C
+@inproceedings{kiermeier2018anomaly,
+author = {Marie Kiermeier and Sebastian Feld and Thomy Phan and Claudia Linnhoff-Popien},
+title = {Anomaly Detection in Spatial Layer Models of Autonomous Agents},
+booktitle = {19th International Conference on Intelligent Data Engineering and Automated Learning (IDEAL 2018)},
+year = {2018},
+month = {November},
+pages = {8},
+doi = {10.1007/978-3-030-03493-1_17},
+abstract = {For describing the complete state of complex environments with multiple mobile and autonomous agents, spatial layer models (SLM) are popular data structures. These models consist of several planes describing the spatial structure of selected features. Those SLM can directly be used for deep reinforcement learning tasks. However, detecting anomalies in such SLM poses two major challenges: the state space explosion in such settings and the spatial relations between the features. In this paper, we present a method for anomaly detection in SLM which solves both challenges by first extracting significant sub-patterns from training data and storing them in a dictionary. Afterwards, the entries of this dictionary are used for reconstructing SLM, which have to be validated. The resulting covering rate is an indicator for the (ab)normality of the given SLM. We show the applicability of our approach for a simple multi-agent scenario, and more complex smart factory scenarios with autonomous agents.},
+}
+
+% RCA
+% CORE -
+@inproceedings{kiermeier2018visual,
+author = {Marie Kiermeier and Sebastian Feld},
+title = {Visual Analytics for Root Cause Analysis in Self-Organizing Industrial Systems},
+booktitle = {16th IEEE International Conference on Industrial Informatics (IEEE INDIN 2018)},
+year = {2018},
+month = {July},
+pages = {6},
+doi = {10.1109/INDIN.2018.8471969},
+abstract = {Root cause analysis (RCA) is a central task for quality assurance in manufacturing plants. By tracing back anomalies to its actual trigger, recurrent misbehavior can be eliminated, which improves the system's future performance. In self-organizing industrial systems (SOIS), however, where the system adapts its behavior to the current circumstances and requests, new challenges arise for RCA. For example, the system decides dynamically at runtime how to route the work-pieces through the factory. This high degree of freedom of the system causes a state space explosion, which makes it difficult to formalize explicit connections. In addition, there are new dependency relationships resulting from the online decision making process and its influencing factors, which have to be taken into account for RCA. Accordingly, in this paper, we present first of all a taxonomy of possible root causes in such SOIS. Thereby, we focus in particular on possible error sources resulting from the online decision making process. Based on this, corresponding backtracking approaches are presented, whereby automatable and non-automatable procedures are distinguished. The latter becomes relevant in case that a component of the online decision making system is not evaluable automatably due to the state space explosion. To trace back anomalies anyway, we propose here a visual analytics solution. A corresponding proof of concept which implements the necessary functions for an expert-based assessment is presented in this paper.},
+}
+
+% CORE C
+@inproceedings{hahn2018collision,
+author = {Carsten Hahn and Sebastian Feld},
+title = {Collision Avoidance using Intuitive Physics},
+booktitle = {IEEE International Conference in Innovations in Intelligent Systems and Applications (IEEE (SMC) INISTA 2018)},
+year = {2018},
+month = {July},
+pages = {8},
+doi = {10.1109/INISTA.2018.8466298},
+url = {http://itnas.civil.duth.gr/inista2018/proceedings/inista2018_ANL1.pdf},
+abstract = {One strategy for intelligent agents in order to reach their goals is to plan their actions in advance. This can be done by simulating how the agent’s actions affect the environment and how it evolves independently of the agent. For this simulation, a model of the environment is needed. However, the creation of this model might be labor-intensive and it might be computational complex to evaluate during simulation. That is why, we suggest to equip an intelligent agent with a learned intuition about the dynamics of its environment by utilizing the concept of intuitive physics. To demonstrate our approach, we used an agent that can freely move in a two dimensional floor plan. It has to collect moving targets while avoiding the collision with static and dynamic obstacles. In order to do so, the agent plans its actions up to a defined planning horizon. The performance of our agent, which intuitively estimates the dynamics of its surrounding objects based on artificial neural networks, is compared to an agent which has a physically exact model of the world and one that acts randomly. The evaluation shows comparatively good results for the intuition based agent considering it uses only a quarter of the computation time in comparison to the agent with a physically exact model.},
+}
+
+% CORE B
+@inproceedings{friedrich2018accelerating,
+author = {Markus Friedrich and Sebastian Feld and Thomy Phan and Pierre-Alain Fayolle},
+title = {Accelerating Evolutionary Construction Tree Extraction via Graph Partitioning},
+booktitle = {26th International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision (WSCG 2018)},
+year = {2018},
+month = {May},
+pages = {9},
+url = {http://wscg.zcu.cz/WSCG2018/Short/O61-full.PDF},
+abstract = {Extracting a Construction Tree from potentially noisy point clouds is an important aspect of Reverse Engineering tasks in Computer Aided Design. Solutions based on algorithmic geometry impose constraints on usable model representations (e.g. quadric surfaces only) and noise robustness. Re-formulating the problem as a combinatorial optimization problem and solving it with an Evolutionary Algorithm can mitigate some of these constraints at the cost of increased computational complexity. This paper proposes a graph-based search space partitioning scheme that is able to accelerate Evolutionary Construction Tree extraction while exploiting parallelization capabilities of modern CPUs. The evaluation indicates a speed-up up to a factor of 46.6 compared to the baseline approach while resulting tree sizes increased by 25.2% to 88.6%.},
+}
+
+% CORE -
+@inproceedings{sedlmeier2018discovering,
+author = {Andreas Sedlmeier and Sebastian Feld},
+title = {Discovering and Learning Recurring Structures in Building Floor Plans},
+booktitle = {Progress in Location Based Services 2018, Lecture Notes in Geoinformation and Cartography},
+year = {2018},
+month = {January},
+pages = {20},
+doi = {10.1007/978-3-319-71470-7_8},
+abstract = {Autonomous mobile robots show promising opportunities as concrete use cases of location-based services. Such robots are able to perform various tasks in buildings using a wide array of sensors to perceive their surroundings. A connected area of research which forms the basis for a deeper understanding of these perceptions is the numerical representation of visual perception of space. Different structures in buildings like rooms, hallways and doorways form different, corresponding patterns in these representations. Thanks to recent advances in the field of deep learning with neural networks, it now seems possible to explore the idea of automatically learning these recurring structures using machine learning techniques. Combining these topics will enable the creation of new and better location-based services which have a deep awareness of their surroundings. This paper presents a framework to create a data set containing 2D isovist measures calculated along geospatial trajectories that traverse a 3D simulation environment. Furthermore, we show that these isovist measures do reflect the recurring structures found in buildings and the recurring patterns are encoded in a way that unsupervised machine learning is able to identify meaningful structures like rooms, hallways and doorways. These labeled data sets can further be used for neural network based supervised learning. The models generated this way do generalize and are able to identify structures in different environments.},
+}
+
+% CORE -
+@inproceedings{kiermeier2017root,
+author = {Marie Kiermeier and Sebastian Feld and Claudia Linnhoff-Popien},
+title = {Root Cause Analysis for Global Anomalous Events in Self-Organizing Industrial Systems},
+booktitle = {21st IEEE International Conference on Intelligent Engineering Systems (IEEE INES 2017)},
+year = {2017},
+month = {October},
+pages = {6},
+abstract = {In self-organizing industrial systems (SOIS) workflows are not defined by engineers in advance, but the system decides by itself at runtime how to route workpieces through the factory, so that the desired output is manufactured as optimal as possible in the present circumstances. As a consequence, the number of possible workflows is not limited to those which were manually predefined, but limited to all possible routes in the factory (state space explosion). Accordingly, analysing anomalies in such a huge solution space becomes more challenging. In this paper, we present a root cause analysis (RCA) approach for finding the root cause of global anomalous events which handles this state space explosion in SOIS. To do so, the dependencies between path usage and external factors like available machines and demanded tasks are subdivided into several sub-dependencies. In addition, we propose for one of these sub-dependencies a heuristical description which avoids the enormous computational effort for modeling the dependency exactly. The operating principle of our RCA method is evaluated based on simulation data of an example factory.},
+}
+
+% CORE -
+@inproceedings{feld2016approximated,
+author = {Sebastian Feld and Martin Werner and Claudia Linnhoff-Popien},
+title = {Approximated Environment Features With Application to Trajectory Annotation},
+booktitle = {6th IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2016)},
+year = {2016},
+month = {December},
+pages = {7},
+doi = {10.1109/SSCI.2016.7849993},
+abstract = {Indoor location-based services is an ever emerging field of research and application. In particular indoor navigation, i.e. positioning and route planning in freely walkable space, gets much attention. The philosophy of this paper is to incorporate isovists as a numerical representation of the local environment to enable new types of indoor LBS. This paper has got two main contributions. First, we define discrete isovists as an approximation of exact isovists using a simple ray casting approach. Second, we define, create, and use isovist feature cubes for semantic evaluations of floor plans as well as trajectory annotation.},
+}
+
+% CORE -
+@inproceedings{feld2016identifying,
+author = {Sebastian Feld and Hao Lyu and Andreas Keler},
+title = {Identifying Divergent Building Structures Using Fuzzy Clustering of Isovist Features},
+booktitle = {Progress in Location-Based Services 2016, Lecture Notes in Geoinformation and Cartography},
+year = {2016},
+month = {November},
+pages = {22},
+doi = {10.1007/978-3-319-47289-8_8},
+abstract = {Nowadays indoor navigation and the understanding of indoor maps and floor plans are becoming increasingly important fields of research and application. This paper introduces clustering of floor plan areas of buildings according to different characteristics. These characteristics consist of computed human perception of space, namely isovist features. Based on the calculated isovist features of floorplans we can show the possible existence of greatly varying alternative routes inside and around buildings. These routes are archetypes, since they are products of archetypal analysis, a fuzzy clustering method that allows the identification of observations with extreme values. Besides archetypal routes in a building we derive floor plan area archetypes. This has the intention of gaining more knowledge on how parts of selected indoor environments are perceived by humans. Finally, our approach helps to find a connection between subjective human perceptions and defined functional spaces in indoor environments.},
+}
+
+% CORE -
+@inproceedings{feld2016criteria,
+author = {Sebastian Feld and Martin Werner and Claudia Linnhoff-Popien},
+title = {Criteria for Selecting Small Sets of Alternative Routes in Free Space Scenarios},
+booktitle = {13th International Conference on Location-Based Services (LBS 2016)},
+year = {2016},
+month = {November},
+pages = {18},
+url = {http://lbs2016.lbsconference.org/wp-content/uploads/2016/11/1_4.pdf},
+abstract = {Recently, alternative routes have gained momentum in the creation of Location-Based Services. This paper gathers and sorts existing work regarding quality metrics of alternative routes and alternative graphs in road networks and discusses their commonalities. Based on this, the paper clarifies what challenges need to be tackled in order to create such metrics for constrained free space scenarios and discusses possible courses of action, opportunities, and limitations. The general goal of this paper is to stimulate the discussion on and the development of quality metrics for alternative routes and alternative graphs for constrained free spaces like pedestrian navigation, or even maritime or aviation scenarios.},
+}
+
+% CORE -
+@inproceedings{ebert2016segmented,
+author = {André Ebert and Sebastian Feld and Florian Dorfmeister},
+title = {Segmented and Directional Impact Detection for Parked Vehicles using Mobile Devices},
+booktitle = {23rd International Conference on Systems, Signals and Image Processing (IWSSIP 2016)},
+year = {2016},
+month = {May},
+pages = {4},
+doi = {10.1109/IWSSIP.2016.7502762},
+abstract = {Mutual usage of vehicles as well as car sharing became more and more attractive during the last years. Especially in urban environments with limited parking possibilities and a higher risk for traffic jams, car rentals and sharing services may save time and money. But when renting a vehicle it could already be damaged (e.g., scratches or bumps inflicted by a previous user) without the damage being perceived by the service provider. In order to address such problems, we present an automated, motion-based system for impact detection, that facilitates a common smartphone as a sensor platform. The system is capable of detecting the impact segment and the point of time of an impact event on a vehicle's surface, as well as its direction of origin. With this additional specific knowledge, it may be possible to reconstruct the circumstances of an impact event, e.g., to prove possible innocence of a service's customer.},
+}
+
+% 20 LBAS Collision Detection
+% FIXME pages
+% CORE -
+@inproceedings{eber2015nuanced,
+author = {André Ebert and Sebastian Feld and Martin Werner},
+title = {Nuanced Collision Detection for Parked Vehicles},
+booktitle = {12. GI/ITG KuVS Fachgespräch Ortsbezogene Anwendungen und Dienste (LBAS 2015)},
+year = {2015},
+month = {September},
+pages = {8},
+abstract = {Today’s omnipresence of smartphones enables the development of systems detecting hazardous situations and collisions in road traffic as well as recognizing and predicting individual driving behavior. This is accelerated by comprehensive equipment of sensors as well as the availability of mobile data transmission networks. Commonly, they rely on motion sensors in combination with frequency analysis and distance algorithms, e.g., dynamic time warping. Moreover, they also use audio and video features for support. Despite a whole range of work in the area of analyzing vehicle’s signals and to the best of our knowledge, there is no reliable procedure for nuanced collision detection in combination with a smartphone as a sensor platform known to us. A segmented detection of collisions itself would be of great value, e.g., in order to relief customers of a car-sharing or car rental service. After a short introduction of related work, we frame the underlying problem of this paper and present our concept for a nuanced collision detection on specific segments of a parked RC-vehicle under the usage of a static-placed smartphone as the only sensor platform. Therefore, we want to create acceleration signal patterns during an offline phase by analyzing recorded sensor data for impacting pushes on specific vehicle segments in x-,y-, and z-direction. Our work, based on repeated collisions with a RC-vehicle, might function as a proof of concept which may be applied to real vehicles later on.},
+}
+
+% 19 IPIN Archetypische Routen
+% CORE -
+@inproceedings{feld2015archetypes,
+author = {Sebastian Feld and Martin Werner and Mirco Schönfeld and Stefanie Hasler},
+title = {Archetypes of Alternative Routes in Buildings},
+booktitle = {6th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2015)},
+year = {2015},
+month = {October},
+pages = {10},
+doi = {10.1109/IPIN.2015.7346946},
+url = {http://www.martinwerner.de/pdf/ARCHETYPES.pdf},
+abstract = {Alternative routes have found many applications in navigation scenarios. However, alternative routes have only been introduced recently for the indoor space due to the complexity of these environments. Furthermore, the number of alternative routes in buildings can be quite high. With this paper, we propose to organize sets of alternative routes by employing archetypal analysis on a feature space representation of routes and show results in which a set of hundreds of routes between the same start and end point has been compressed to only a few obviously different archetypal routes. Additionally, the framework allows for comparing routes with archetypes and with each other. This comparison does not reveal spatial similarity alone, but rather a measure of routes' similarity representing their inherent semantic character.},
+}
+
+% 18 TSA Routing
+% CORE -
+@inproceedings{protschky2015traffic,
+author = {Valentin Protschky and Sebastian Feld und Michael Wälischmiller},
+title = {Traffic Signal Adaptive Routing},
+booktitle = {IEEE 18th International Conference on Intelligent Transportation Systems (ITSC 2015)},
+year = {2015},
+month = {September},
+pages = {7},
+doi = {10.1109/ITSC.2015.81},
+abstract = {The knowledge of future Signal Phase and Timing information (SPaT) of traffic lights ahead enables a vast number of driving assistance functions, such as Green Light Optimal Speed Control (GLOSA), Red Light Duration Advisory (RLDA) or Traffic Signal Adaptive routing (TSA routing). The purpose of TSA routing is to reduce the travel time by choosing a route that is possibly longer than the shortest one but has less red lights. Whereas GLOSA and RLDA are quite easy to implement from a scientific point of view, TSA routing presents a certain challenge: first of all, TSA routing necessitates predictions on future signal states on a wider look in the future than GLOSA and RLDA, a possible reason why this field of research still seems rather unexplored. Second, there are still many unresolved issues, such as the inadequacy of graphs for TSA-routing, or proper traffic load estimations. In this paper, we present a fully functioning model for TSA routing on the basis of our forgoing research on the prediction of future signal states and address the question of practical usability by evaluating our model under realistic conditions. We analyze, among other things, the impact of partial knowledge on traffic light's future signal states and the impact of different traffic loads on TSA routes by means of a test field in Munich, Germany. We describe necessary modifications of the underlying transportation network's graph structure and shortest path routing algorithm to allow routing under consideration of future signal states of traffic lights. We show that, albeit there are many erratic aspects in traffic and signal states, TSA routing still reaches a significant travel time gain over usual routing in our test field.},
+}
+
+% 17 SAI Route Scoring
+% CORE -
+@inproceedings{feld2015scoring,
+author = {Sebastian Feld},
+title = {Scoring of Alternative Routes Using Implicit Building Topologies},
+booktitle = {Science and Information Conference (SAI 2015)},
+year = {2015},
+month = {July},
+pages = {8},
+doi = {10.1109/SAI.2015.7237165},
+abstract = {Currently navigation in indoor scenarios enjoys a highly increasing popularity. Besides that, there are numerous applications that utilize alternatives to a particular path. Think of a navigation system that proposes a mall's visitor three different routes: the fastest, a route passing restaurants, and a route traversing shops. Thus, the visitor is able to choose a route by personal preference or experience. Further users of alternative routes can be fire fighters, mobile robots, or nonplayer characters in video games. In contrast to navigation in road networks, there are several challenges to solve in indoor scenarios. First, the creation of alternative routes is not much discussed in literature. Second, due to the high degree of freedom there is a large number of alternative routes possible regarding a reference path. Third, there is no proper understanding of how to measure the meaningfulness or quality of an alternative route. This paper is a step towards the evaluation of alternative routes in indoor navigation scenarios and has got two main contributions. First, we propose to use the term congestion probability as a first common understanding to estimate the meaningfulness of alternative routes inside buildings. Most of the indoor use cases are looking for routes that either seek or avoid crowded areas - at least as one of multiple criteria. Additionally, we propose to score alternative routes based on a local and a global perception. The paper's second contribution is an algorithm that scores a set of alternative routes based on an ordinary floor plan. Thus, it compares a formerly non-valuated set of routes and creates a ranking regarding the congestion probability. Basically, the algorithm is based on the assumption that points on a map, that are frequently located on shortest paths, will also be frequently traversed. Due to the lack of appropriate data sets we discuss the algorithm's results in detail by means of four different indoor scenarios.},
+}
+
+% 15 MEC-SIP
+% CORE -
+@inproceedings{beck2015mevolte,
+author = {Michael Till Beck and Sebastian Feld and Andreas Fichtner and Claudia Linnhoff-Popien and Thomas Schimper},
+title = {ME-VoLTE: Energy-Efficient Video Transcoding At the Mobile Edge},
+booktitle = {18th International ICIN Conference, Innovations in Services, Networks, and Clouds (ICIN 2015)},
+year = {2015},
+month = {February},
+pages = {7},
+doi = {10.1109/ICIN.2015.7073804},
+abstract = {Encoding multimedia streams of video calls is a very compute-intense task that significantly decreases battery lifetime of mobile phones. This paper introduces an approach to reduce power consumption of mobile phones by offloading video encoding efforts from mobile devices to external services. These services are hosted on servers co-located with cellular base stations. The paper describes how these services are integrated into the existing mobile network architecture and presents a communication protocol for negotiating offloading settings. First measurement results indicate that power consumption of mobile devices is reduced by approximately 13%.},
+}
+
+% 14 MEC-Taxonomy (2nd Try)
+% CORE -
+@inproceedings{beck2014mobile,
+author = {Michael Till Beck and Martin Werner and Sebastian Feld and Thomas Schimper},
+title = {Mobile Edge Computing: A Taxonomy},
+booktitle = {6th International Conference on Advances in Future Internet (AFIN 2014)},
+year = {2014},
+month = {November},
+pages = {7},
+url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.670.9418&rep=rep1&type=pdf},
+doi = {},
+abstract = {Mobile Edge Computing proposes co-locating com-puting and storage resources at base stations of cellular networks. It is seen as a promising technique to alleviate utilization of the mobile core and to reduce latency for mobile end users. Due to the fact that Mobile Edge Computing is a novel approach not yet deployed in real-life networks, recent work discusses merely general and non-technical ideas and concepts. This paper introduces a taxonomy for Mobile Edge Computing applications and analyzes chances and limitations from a technical point of view. Application types which profit from edge deployment are identified and discussed. Furthermore, these applications are systematically classified based on technical metrics.},
+}
+
+% 13 LBAS 2014
+% CORE -
+@inproceedings{feld2014compression,
+author = {Sebastian Feld and Martin Werner},
+title = {Compression of GPS tracks Using Map Information},
+booktitle = {11. GI/ITG KuVS Fachgespräch Ortsbezogene Anwendungen und Dienste (LBAS 2014)},
+year = {2014},
+month = {September},
+pages = {12},
+abstract = {With this paper, we propose a novel semantic compression scheme for GPS trajectories which exploits map knowledge for data reduction. Therefore, the compression is integrated into a simple map matching scheme and shows superior performance with respect to the compression ratio. In contrast to other compression schemes including compressed GPX files, a lot of information about a trajectory can be readily extracted from the given representation and a uniformly sampled representative can be easily calculated for advanced trajectory comparison. We provide a detailed analysis of the approach as well as preliminary results on performance and feasibility of this approach in typical urban mobility scenarios.},
+}
+
+% 12 MOVIPS
+% CORE -
+@inproceedings{marouane2014visual,
+author = {Chadly Marouane and Marco Maier and Sebastian Feld and Martin Werner},
+title = {Visual Positioning Systems -- An Extension to MoVIPS},
+booktitle = {5th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2014)},
+year = {2014},
+month = {October},
+pages = {10},
+doi = {10.1109/IPIN.2014.7275472},
+abstract = {Due to the increasing popularity of location-based services, the need for reliable and cost-effective indoor positioning methods is rising. As an alternative to radio-based localization methods, in 2011, we introduced MoVIPS (Mobile Visual Indoor Positioning System), which is based on the idea to extract visual feature points from a query image and compare them to those of previously collected geo-referenced images. The general feasibility of positioning by SURF points on a conventional smartphone was already shown in our previous work. However, the system still faced several shortcomings concerning real-world usage such as request times being too high and distance estimation being unreliable because of the employed estimation method not being rotation invariant. In this paper, three extensions are presented that improve the practical applicability of MoVIPS. To speed up request times, both a dead reckoning approach (based on step counting using the accelerometer) and an orientation estimation (based on the smartphones compass) are introduced to filter relevant images from the database and thus to reduce the amount of images to compare the query image to. Furthermore, the vectors of the SURF points are quantized. For this purpose, clusters are calculated from all SURF points from the database. As a result, each image can be represented by a histogram of cluster frequencies, which can be compared with each other a lot more efficiently. The third extension is an improvement of the distance estimation method, which uses the matched feature points of an image to perform a perspective transformation and to determine the actual position with the aid of the transformation matrix.},
+}
+
+% 11 Homotopy
+% CORE -
+@inproceedings{werner2014homotopy,
+author = {Martin Werner and Sebastian Feld},
+title = {Homotopy and Alternative Routes in Indoor Navigation Scenarios},
+booktitle = {5th International Conference on Indoor Positioning and Indoor Navigation (IPIN 2014)},
+year = {2014},
+month = {October},
+pages = {9},
+doi = {10.1109/IPIN.2014.7275488},
+abstract = {There are lots of innovative use cases possible that build on a shortest route between two locations together with a set of alternatives that are highly different yet short. Imagine, for example, a complicated building like an airport, where passengers can consult a computer terminal to get navigation advices to a desired goal. By scanning the boarding card the calculation of alternatives can be made context-sensitive. Based on gender, amount of time, or shopping preferences, for example, the terminal can display different routes regarding floors traversed, or shops and restaurants passed. Furthermore, the building operator can control the presentation of alternatives in order to influence visitor flows in real time. Therefore, we propose to use the topological concept of homotopy in order to decide if two routes should be considered equivalent or alternative. Basically, the homotopy relation identifies equivalence classes. We propose that a representative of an equivalence class is an alternative regarding another equivalence class. We concatenate the two routes in question and thus, create a polygon. If there is an obstacle inside, the routes are non-homotopic and we consider them as proper alternatives. For this situation, we propose two fundamentally different approaches that are able to find alternative routes with respect to homotopy. The input is a building plan in form of an occupancy grid. Bitmaps allow for fast calculation of the homotopy relation and can be generated from almost any type of environmental model. The first approach aims for enumerating routes that have to visit a special supporting point. This concatenation of two shortest paths leads to alternatives very fast. The second approach is orthogonal to that in the sense that it generates alternatives roughly ordered by their length. Finally, we evaluate and discuss the approaches’ feasibility based on different metrics in several scenarios.},
+}
+
+% 7 Bitcoin 2nd Try
+% International Workshop on Secure Peer-to-Peer Intelligent Networks & Systems (SPINS-2014)
+% CORE -
+@inproceedings{feld2014analyzing,
+author = {Sebastian Feld and Mirco Schönfeld and Martin Werner},
+title = {Analyzing the deployment of Bitcoin's P2P network under an AS-level perspective},
+booktitle = {International Workshop on Secure Peer-to-Peer Intelligent Networks & Systems (SPINS-2014)},
+year = {2014},
+month = {June},
+pages = {6},
+url = {https://www.sciencedirect.com/science/article/pii/S187705091400742X/pdf?md5=2a5efb534e0d4dc1e12ba9b4157ae4c9&pid=1-s2.0-S187705091400742X-main.pdf},
+doi = {10.1016/j.procs.2014.05.542},
+abstract = {Bitcoin has become increasingly important in recent years. The exchange rate raised from $14 in January 2013 up to $240 in April 2013 and even $900 in early 2014. In this paper, we present novel insights about Bitcoin’s peer-to-peer (P2P) network with a special focus on its distribution among distinct autonomous systems. We traversed Bitcoin’s P2P network in a protocol-compliant manner and collected information about the network size, the number of clients, and the network distribution among autonomous systems. Our findings lead to conclusions about the resilience of the Bitcoin ecosystem, the unambiguousness of the blockchain in use, and the propagation and verification of transaction blocks.},
+}
+
+% 6 NSZ
+% CORE -
+@inproceedings{wiesner2014right,
+author = {Kevin Wiesner and Sebastian Feld and Florian Dorfmeister and Claudia Linnhoff-Popien},
+title = {Right to Silence: Establishing Map-based Silent Zones for Participatory Sensing},
+booktitle = {IEEE 9th International Conference on Intelligent Sensors, Sensor Networks and Information Processing (IEEE ISSNIP 2014)},
+year = {2014},
+month = {April},
+pages = {6},
+doi = {10.1109/ISSNIP.2014.6827657},
+abstract = {Participatory sensing tries to create cost-effective, large-scale sensing systems by leveraging sensors embedded in mobile devices. One major challenge in these systems is to protect the users' privacy, since users will not contribute data if their privacy is jeopardized. Especially location data needs to be protected if it is likely to reveal information about the users' identities. A common solution is the blinding out approach that creates so-called ban zones in which location data is not published. Thereby, a user's important places, e.g., her home or workplace, can be concealed. However, ban zones of a fixed size are not able to guarantee any particular level of privacy. For instance, a ban zone that is large enough to conceal a user's home in a large city might be too small in a less populated area. For this reason, we propose an approach for dynamic map-based blinding out: The boundaries of our privacy zones, called Silent Zones, are determined in such way that at least k buildings are located within this zone. Thus, our approach adapts to the habitat density and we can guarantee k-anonymity in terms of surrounding buildings. In this paper, we present two new algorithms for creating Silent Zones and evaluate their performance. Our results show that especially in worst case scenarios, i.e., in sparsely populated areas, our approach outperforms standard ban zones and guarantees the specified privacy level.},
+}
+
+% 5 Tasking
+% CORE -
+@inproceedings{wiesner2013energy,
+author = {Kevin Wiesner and Sebastian Feld},
+title = {Energy-efficient Tasking in Participatory Sensing Systems},
+booktitle = {10. GI/ITG KuVS Fachgespräch Ortsbezogene Anwendungen und Dienste (LBAS 2013)},
+year = {2013},
+month = {September},
+pages = {9},
+abstract = {By leveraging sensors embedded in mobile devices, participatory sensing tries to create large-scale sensing systems. One major challenge in these participatory sensing networks is the problem of distributing sensing tasks in an energy-efficient manner. A large portion of energy is typically consumed for the exchange of tasks between the tasking server and the mobile devices, as well as for the position monitoring needed to detect whether a user is situated within the tasking area. In this paper, we mainly focus on reducing energy for receiving and monitoring tasks on the client side. We propose an energy-efficient task distribution and monitoring concept for participatory sensing system and evaluate it by means of simulation.},
+}
+
+% 4 TSP 2nd-try
+% CORE -
+@inproceedings{feld2013efficient,
+author = {Sebastian Feld and Martin Werner and Florian Dorfmeister},
+title = {Efficient Path Planning Involving Equivalent Places},
+booktitle = {10. GI/ITG KuVS Fachgespräch Ortsbezogene Anwendungen und Dienste (LBAS 2013)},
+year = {2013},
+month = {September},
+pages = {10},
+abstract = {This paper investigates a complication of the classical Traveling Salesman Problem, which arises due to multiple points of interest with functional equivalence. While the classical Traveling Salesman Problem tries to find a shortest tour visiting each point in a set exactly once, we consider the challenge of finding the shortest tour visiting each point of a given set exactly once and exactly one additional point out of a different set of equivalent places. The insertion of a gas station to a traveling salesman problem provides an example. With this paper, we investigate and analyze different algorithms to solve this complex problem by reducing it to the solution of a set of classic Traveling Salesman Problems. Furthermore, we provide an efficient tradeoff between the size of the set of traditional problems still to be solved and the expected error of the algorithm.},
+}
+
+% 2 ALPACA
+% CORE -
+@inproceedings{dorfmeister2013privacy,
+author = {Florian Dorfmeister and Sebastian Feld and Claudia Linnhoff-Popien and Stephan Verclas},
+title = {Privacy-Centric Modeling and Management of Context Information},
+booktitle = {6th International Conference on Advances in Human oriented and Personalized Mechanisms, Technologies, and Services (CENTRIC 2013)},
+year = {2013},
+month = {October},
+pages = {6},
+url = {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.678.2386&rep=rep1&type=pdf},
+abstract = {Context-aware computing has been an intensively researched topic for years already. Consequently, there exists a plethora of usage scenarios for context-aware applications as well as several approaches for the modeling and management of a user’s context information, many of which focus on the efficient and scalable distribution of the latter. With the ongoing rise of smartphones as everyday mobile devices and their steadily increasing amount of sensing and communication capabilities, we finally find ourselves at the edge towards a widespread usage of these techniques. However, apart from technical issues such as how to reliably determine a user’s current context, privacy still remains a crucial factor for these systems’ acceptance rate. Therefore, inspired by earlier works on privacy in context-aware computing and the authors’ beliefs in the necessity to put users in control, this paper presents a novel approach for modeling and managing a mobile user’s context information in a user-centric and privacy-preserving way. To this end, this work’s contribution is twofold: First, based on widely recognized requirements for privacy in context-aware applications, we propose a privacy-centric context model which allows for an intuitive and context-dependent definition of a user’s privacy preferences, directly integrating privacy aspects into the context model itself. Second, we present a generic and flexible architecture for the management and distribution of context information in a privacy-preserving way fit for a multitude of different usage scenarios.},
+}
+
+% 12-07 [A+V] ISSE 2012 - AS-Analyzer
+% FIXME pages
+% CORE -
+@inproceedings{feld2012analyzing,
+author = {Sebastian Feld and Norbert Pohlmann and Michael Sparenberg and Bastian Wichmann},
+title = {Analyzing G-20's key autonomous systems and their intermeshing using AS-Analyzer},
+booktitle = {ISSE 2012 Securing Electronic Business Processes},
+year = {2012},
+month = {October},
+pages = {15},
+doi = {10.1007/978-3-658-00333-3_22},
+url = {http://www.norbert-pohlmann.com/wp-content/uploads/2015/08/296-Analyzing-G-20%C2%B4Key-Autonomous-Systems-and-their-Intermeshing-using-AS-Analyzer-Prof-Norbert-Pohlmann.pdf},
+abstract = {Several thousands of interconnected autonomous systems form the Internet, which is regarded as the most powerful communication infrastructure today. Measuring the network and monitoring its vital parameters is crucial for securing continuous availability and steady performance of the Internet. This paper introduces AS-Analyzer, a tool for gathering and analyzing data related to autonomous systems and their interconnection. Using AS-Analyzer’s modules for collecting data from different sources, calculating key figures and creating reports, we present a vivid example by analyzing the G-20’s key autonomous systems and their intermeshing. A brief discussion of key figures related to autonomous system, IPv4 addresses, connections, categories and malware will complete the presentation.},
+}
+
+% 11-05 [A+V] ISSE 2011 - Internet-Kennzahlensystem
+% CORE -
+@inproceedings{feld2011objectives,
+author = {Sebastian Feld and Tim Perrei and Norbert Pohlmann and Matthias Schupp},
+title = {Objectives and added value of an Internet Key Figure System for Germany},
+booktitle = {ISSE 2011 Securing Electronic Business Processes},
+year = {2011},
+month = {November},
+pages = {11},
+doi = {10.1007/978-3-8348-8652-1_30},
+url = {http://www.norbert-pohlmann.com/wp-content/uploads/2015/08/284-Objectives-and-Added-Value-of-an-Internet-Key-Figure-System-for-Germany-Prof-Norbert-Pohlmann.pdf},
+abstract = {This work is motivated by the fact that the Internet can be seen as a critical infrastructure, whose on-going operation is particularly worth protecting. Problematic when considering the state of the Internet are two things: On the one hand, there are many dependencies in the context of the Internet, on the other hand there are only a few key figures that allow comprehensive statements. In the course of this work, a Key Figure System will be described in which the control object is the Internet by itself. The complex structure of the Internet is to be made more transparent and the condition, changes and future potential are to be expressed. In addition to the various objectives that are to be achieved during the design and implementation of such an Internet Key Figure System, this work describes the problems that have to be solved. These are less technical, but in fact organisational and legal nature. Each Key Figure System requires a control object, that is a clearly defined scope, which the data collection, data processing and data visualisation refer to. In the following the definition of an Internet Germany is given and the appropriate stakeholder and criteria are described. This work concludes with an explanation of the different added value of an Internet Key Figure System for the various addressees.},
+}
+
+% 11-04 [A] DACH Security 2011 - Internet-Kennzahlensystem
+% CORE -
+@inproceedings{feld2011internet,
+author = {Sebastian Feld and Tim Perrei and Norbert Pohlmann and Matthias Schupp},
+title = {Ein Internet-Kennzahlensystem für Deutschland: Anforderungen und technische Maßnahmen},
+booktitle = {D-A-CH Security Konferenz 2011 -- Bestandsaufnahme, Konzepte, Anwendungen und Perspektiven},
+year = {2011},
+month = {September},
+pages = {11},
+url = {http://www.norbert-pohlmann.com/wp-content/uploads/2015/08/281-Ein-Internet-Kennzahlensystem-f%C3%BCr-Deutschland-Anforderungen-und-technische-Ma%C3%9Fnahme-Prof-Norbert-Pohlmann.pdf},
+abstract = {Das Internet ist eine kritische Infrastruktur, deren Verfügbarkeit für die Bürger, Unternehmen und Regierungen der Industrieländer von höchster Bedeutung ist. Um die Komplexität einer solchen Infrastruktur analysieren, den aktuellen Zustand beobachten sowie die zukünftige Entwicklung abschätzen zu können ist der Einsatz eines Kennzahlensystems, wie es bereits in der Betriebswirtschaft breite Anwendung findet, sinnvoll. Für ein solches Internet-Kennzahlensystem stellen sich drei Anforderungen: Es muss die Daten, welche die Kennzahlen bilden werden, erfassen, verarbeiten und visualisieren können. Bei der Realisierung eines solchen Internet-Kennzahlensystems ist insbesondere ein Augenmerk auf die Erhebung der Kennzahlen sinnvoll. Dabei kann zwischen Datenquellen, die ihre Daten selbstständig einliefern, und jenen, deren Daten abgerufen werden müssen, unterschieden werden. Auch wenn das Internet eine globale Infrastruktur ist, so ist ein Kennzahlensystem für ein Internet Deutschland notwendig und sinnvoll. Dabei ist der Geltungsbereich insbesondere durch die Infrastruktur und Dienste gegeben, die direkt für die deutschen Bürger und Unternehmen relevant sind.},
+}
+
+% 10-04 [A+V] ISSE 2010 - OpenID und nPA
+% CORE -
+@inproceedings{feld2010security,
+author = {Sebastian Feld and Norbert Pohlmann},
+title = {Security Analysis of OpenID, followed by a Reference Implementation of an nPA-based OpenID Provider},
+booktitle = {ISSE 2010 Securing Electronic Business Processes},
+year = {2010},
+month = {October},
+pages = {13},
+doi = {10.1007/978-3-8348-9788-6_2},
+url = {http://www.norbert-pohlmann.com/wp-content/uploads/2015/08/264-Security-analysis-of-OpenID-followed-by-a-reference-implementation-of-an-nPA-based-OpenID-provider-Prof-Norbert-Pohlmann.pdf},
+abstract = {OpenID is an open, decentralized and URL-based standard for Single Sign-On (SSO) on the Internet. In addition, the new electronic identity card (“Neuer Personalausweis”, nPA) will be introduced in Germany in November 2010. This work shows the problems associated with OpenID and addresses possible solutions. There is also a discussion on how to improve the OpenID protocol by the combination of the nPA respectively the Restricted Identification (RI) with an OpenID identity. The concept of an OpenID provider with nPA support will be presented together with its precondition. The added value created by the combination of the two technologies nPA and OpenID in different directions is discussed.},
+}
+
+% 10-04 [A+V] DACH Security 2010 - OpenID und nPA
+% CORE -
+@inproceedings{feld2010openid,
+author = {Sebastian Feld and Norbert Pohlmann},
+title = {Ein OpenID-Provider mit Proxy-Funktionalität für den nPA},
+booktitle = {D-A-CH Security Konferenz 2010 -- Bestandsaufnahme, Konzepte, Anwendungen und Perspektiven},
+year = {2010},
+month = {September},
+pages = {15},
+url = {http://www.norbert-pohlmann.com/wp-content/uploads/2019/08/262-Ein-OpenID-Provider-mit-Proxy-Funktionalit%C3%A4t-f%C3%BCr-den-nPA-Prof.-Norbert-Pohlmann.pdf},
+abstract = {OpenID ist ein offener, dezentraler und URL-basierter Standard für Single Sign-On (SSO) im Internet. Darüber hinaus wird in Deutschland ab November 2010 der neue, elektronische Personalausweis (nPA) eingeführt. Ziel dieser Arbeit ist eine Sicherheitsbewertung des OpenID-Protokolls sowie die Darstellung, wie ein OpenID-Provider die Restricted Identification (RI) des nPAs mit einer OpenID-Identität verknüpfen kann. Es wird erörtert, welche Mehrwerte die Kombination der beiden Technologien nPA und OpenID erschaffen können.},
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%% THESES %%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% DISS
+@phdthesis{feld2018phd,
+author = {Sebastian Feld},
+title = {Alternative routes in complex environments},
+school = {LMU Munich, Germany},
+year = {2018},
+month = {May},
+type = {Dissertation, Computer Science},
+abstract = {Due to the immense dissemination of low-cost GPS receivers built into mobile devices, an impressive use of location-based services has been achieved in recent years. A popular application is navigation in road networks in conjunction with the presentation of alternative routes that allows users a choice according to their own preferences or experiences. Route finding in complex environments differs from that in road networks mainly due to the fact that a user can move almost in all directions. Examples include pedestrians in airports, hospitals, exhibition halls, or parks, mobile robots in industrial facilities or warehouses, as well as non-player characters in computer games. In these scenarios the provision of alternative routes is useful, too, for example, to enable personalized navigation, to avoid jams proactively, or to carry out tactical movements. This thesis presents approaches which deal with the topic of alternative routes in complex environments at different thematic levels. This includes the calculation of alternative routes in open space, the comparison of geospatial trajectories, and the identification of structures in buildings. First, alternative routes in complex environments are defined using the topological concept of homotopy, so that two routes can be considered alternative if they pass obstacles differently. For this purpose an effcient approximation of the homotopy test is presented together with the implementation of two algorithms for the calculation of such routes. Subsequently a structured presentation of existing quality metrics for alternative routes and alternative graphs in road networks takes place, whereupon the transferability of these approaches into complex environments is discussed. Second, approaches for the direct comparison of routes are presented. On the one hand, a scoring of routes is suggested based on the assumption that routes, which often lie on a shortest paths, are also often traversed. On the other hand, a system is presented that allows the calculation of archetypal routes by extracting the most extreme instances from a set of routes. Corresponding to this, the archetypal distance is defined, with which routes can be compared not only geometrically but in a multi-dimensional feature space. Third, the quantitative analysis of the visual perception of space is incorporated into the context of alternative routes. Based on the idea of so-called Isovists, a user's local environment is approximated in order to calculate alternative routes, to annotate them, and to determine structures in buildings. In summary, the contributions of this thesis can be understood in their entirety as a toolbox which can be used by other location-based services.},
+}
+
+% MA
+@mastersthesis{feld2010msc,
+author = {Sebastian Feld},
+title = {Security analysis of an OpenID provider with proxy functionality for the nPA (German ID card)},
+school = {University of Applied Sciences, Gelsenkirchen, Germany},
+year = {2010},
+month = {December},
+type = {Master's Thesis, Applied Computer Science},
+}
+
+% BA
+@mastersthesis{feld2007bsc,
+author = {Sebastian Feld},
+title = {Analyzing obfuscation techniques for email addresses to prevent email address harvesting},
+school = {University of Applied Sciences, Gelsenkirchen, Germany},
+year = {2007},
+month = {November},
+type = {Bachelor's Thesis, Media Informatics},
+}

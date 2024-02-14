@@ -1,0 +1,42 @@
+---
+title: Alternative routes in complex environments
+authors:
+- Sebastian Feld
+date: '2018-05-01'
+publishDate: '2024-02-14T10:33:06.457269Z'
+publication_types:
+- thesis
+abstract: Due to the immense dissemination of low-cost GPS receivers built into mobile
+  devices, an impressive use of location-based services has been achieved in recent
+  years. A popular application is navigation in road networks in conjunction with
+  the presentation of alternative routes that allows users a choice according to their
+  own preferences or experiences. Route finding in complex environments differs from
+  that in road networks mainly due to the fact that a user can move almost in all
+  directions. Examples include pedestrians in airports, hospitals, exhibition halls,
+  or parks, mobile robots in industrial facilities or warehouses, as well as non-player
+  characters in computer games. In these scenarios the provision of alternative routes
+  is useful, too, for example, to enable personalized navigation, to avoid jams proactively,
+  or to carry out tactical movements. This thesis presents approaches which deal with
+  the topic of alternative routes in complex environments at different thematic levels.
+  This includes the calculation of alternative routes in open space, the comparison
+  of geospatial trajectories, and the identification of structures in buildings. First,
+  alternative routes in complex environments are defined using the topological concept
+  of homotopy, so that two routes can be considered alternative if they pass obstacles
+  differently. For this purpose an effcient approximation of the homotopy test is
+  presented together with the implementation of two algorithms for the calculation
+  of such routes. Subsequently a structured presentation of existing quality metrics
+  for alternative routes and alternative graphs in road networks takes place, whereupon
+  the transferability of these approaches into complex environments is discussed.
+  Second, approaches for the direct comparison of routes are presented. On the one
+  hand, a scoring of routes is suggested based on the assumption that routes, which
+  often lie on a shortest paths, are also often traversed. On the other hand, a system
+  is presented that allows the calculation of archetypal routes by extracting the
+  most extreme instances from a set of routes. Corresponding to this, the archetypal
+  distance is defined, with which routes can be compared not only geometrically but
+  in a multi-dimensional feature space. Third, the quantitative analysis of the visual
+  perception of space is incorporated into the context of alternative routes. Based
+  on the idea of so-called Isovists, a user's local environment is approximated in
+  order to calculate alternative routes, to annotate them, and to determine structures
+  in buildings. In summary, the contributions of this thesis can be understood in
+  their entirety as a toolbox which can be used by other location-based services.
+---
