@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>article-journal | Academic</title>
+    <link>https://www.sebastianfeld.de/publication-type/article-journal/</link>
+      <atom:link href="https://www.sebastianfeld.de/publication-type/article-journal/index.xml" rel="self" type="application/rss+xml" />
+    <description>article-journal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.sebastianfeld.de/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>article-journal</title>
+      <link>https://www.sebastianfeld.de/publication-type/article-journal/</link>
+    </image>
+    
+    <item>
+      <title>Topological-Graph Dependencies and Scaling Properties of a Heuristic Qubit-Assignment Algorithm</title>
+      <link>https://www.sebastianfeld.de/publication/steinberg-2022-topological/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/steinberg-2022-topological/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Hybrid Solution Method for the Capacitated Vehicle Routing Problem Using a Quantum Annealer</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2019-hybrid/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2019-hybrid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Indoor Space Perception</title>
+      <link>https://www.sebastianfeld.de/publication/sedlmeier-2018-learning/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/sedlmeier-2018-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traversing Bitcoin’s P2P Network: Insights into the Structure of a Decentralized Currency</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2016-traversing/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2016-traversing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example journal article</title>
+      <link>https://www.sebastianfeld.de/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ALPACA: A Decentralized, Privacy-Centric and Context-Aware Framework for the Dissemination of Context Information</title>
+      <link>https://www.sebastianfeld.de/publication/dorfmeister-2014-alpaca/</link>
+      <pubDate>Tue, 01 Jul 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/dorfmeister-2014-alpaca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gefahren und Risiken bei Web 2.0</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2009-gefahren/</link>
+      <pubDate>Mon, 01 Jun 2009 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2009-gefahren/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

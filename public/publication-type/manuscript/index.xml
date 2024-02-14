@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>manuscript | Academic</title>
+    <link>https://www.sebastianfeld.de/publication-type/manuscript/</link>
+      <atom:link href="https://www.sebastianfeld.de/publication-type/manuscript/index.xml" rel="self" type="application/rss+xml" />
+    <description>manuscript</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.sebastianfeld.de/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>manuscript</title>
+      <link>https://www.sebastianfeld.de/publication-type/manuscript/</link>
+    </image>
+    
+    <item>
+      <title>A Quantum Annealing Approach for Solving Hard Variants of the Stable Marriage Problem</title>
+      <link>https://www.sebastianfeld.de/publication/roch-2022-quantum/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/roch-2022-quantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithmic QUBO formulations for k-SAT and hamiltonian cycles</title>
+      <link>https://www.sebastianfeld.de/publication/nuesslein-2022-algorithmic/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/nuesslein-2022-algorithmic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Full-stack quantum computing systems in the NISQ era: algorithm-driven and hardware-aware compilation techniques</title>
+      <link>https://www.sebastianfeld.de/publication/bandic-2022-full/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/bandic-2022-full/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

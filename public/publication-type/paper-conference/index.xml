@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>paper-conference | Academic</title>
+    <link>https://www.sebastianfeld.de/publication-type/paper-conference/</link>
+      <atom:link href="https://www.sebastianfeld.de/publication-type/paper-conference/index.xml" rel="self" type="application/rss+xml" />
+    <description>paper-conference</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.sebastianfeld.de/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>paper-conference</title>
+      <link>https://www.sebastianfeld.de/publication-type/paper-conference/</link>
+    </image>
+    
+    <item>
+      <title>Cross Entropy Hyperparameter Optimization for Constrained Problem Hamiltonians Applied to QAOA</title>
+      <link>https://www.sebastianfeld.de/publication/roch-2020-cross/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/roch-2020-cross/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Collision Management for Time and Risk Dependent Path Planning</title>
+      <link>https://www.sebastianfeld.de/publication/hahn-2020-predictive/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/hahn-2020-predictive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximating Archetypal Analysis Using Quantum Annealing</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2020-approximating/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2020-approximating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games</title>
+      <link>https://www.sebastianfeld.de/publication/roch-2020-quantum/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/roch-2020-quantum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What to do in the Meantime : A Service Coverage Analysis for Parked Autonomous Vehicles</title>
+      <link>https://www.sebastianfeld.de/publication/illium-2020-what/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/illium-2020-what/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation</title>
+      <link>https://www.sebastianfeld.de/publication/phan-2020-distributed/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/phan-2020-distributed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Flexible Pipeline for the Optimization of Construction Trees</title>
+      <link>https://www.sebastianfeld.de/publication/friedrich-2020-flexible/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/friedrich-2020-flexible/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximate Approximation on a Quantum Annealer</title>
+      <link>https://www.sebastianfeld.de/publication/sax-2020-approximate/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/sax-2020-approximate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights on Training Neural Networks for QUBO Tasks</title>
+      <link>https://www.sebastianfeld.de/publication/gabor-2020-insights/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/gabor-2020-insights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dynamic Time Warping Distance Measure as QUBO Formulation</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2020-dynamic/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2020-dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Holy Grail of Quantum Artificial Intelligence: Challenges in Accelerating the Machine Learning Pipeline</title>
+      <link>https://www.sebastianfeld.de/publication/gabor-2020-holy/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/gabor-2020-holy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The UQ Platform: A Unified Approach To Quantum Annealing</title>
+      <link>https://www.sebastianfeld.de/publication/gabor-2020-uq/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/gabor-2020-uq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nash Equilibria in Multi-Agent Swarms</title>
+      <link>https://www.sebastianfeld.de/publication/hahn-2020-nash/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/hahn-2020-nash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian Surprise in Indoor Environments</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2020-bayesian/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2020-bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Supporting the DevOps Feedback Loop using Unsupervised Learning</title>
+      <link>https://www.sebastianfeld.de/publication/figalist-2019-supporting/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/figalist-2019-supporting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies (Extended Abstract)</title>
+      <link>https://www.sebastianfeld.de/publication/phan-2019-distributed/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/phan-2019-distributed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing Solution Quality of 3SAT on a Quantum Annealing Platform</title>
+      <link>https://www.sebastianfeld.de/publication/gabor-2019-assessing/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/gabor-2019-assessing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Path Planning with Stable Growing Neural Gas</title>
+      <link>https://www.sebastianfeld.de/publication/hahn-2019-dynamic/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/hahn-2019-dynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimizing Geometry Compression using Quantum Annealing</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2018-optimizing/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2018-optimizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anomaly Detection in Spatial Layer Models of Autonomous Agents</title>
+      <link>https://www.sebastianfeld.de/publication/kiermeier-2018-anomaly/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/kiermeier-2018-anomaly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trajectory Annotation Using Sequences of Spatial Perception</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2018-trajectory/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2018-trajectory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collision Avoidance using Intuitive Physics</title>
+      <link>https://www.sebastianfeld.de/publication/hahn-2018-collision/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/hahn-2018-collision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Analytics for Root Cause Analysis in Self-Organizing Industrial Systems</title>
+      <link>https://www.sebastianfeld.de/publication/kiermeier-2018-visual/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/kiermeier-2018-visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerating Evolutionary Construction Tree Extraction via Graph Partitioning</title>
+      <link>https://www.sebastianfeld.de/publication/friedrich-2018-accelerating/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/friedrich-2018-accelerating/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discovering and Learning Recurring Structures in Building Floor Plans</title>
+      <link>https://www.sebastianfeld.de/publication/sedlmeier-2018-discovering/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/sedlmeier-2018-discovering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Root Cause Analysis for Global Anomalous Events in Self-Organizing Industrial Systems</title>
+      <link>https://www.sebastianfeld.de/publication/kiermeier-2017-root/</link>
+      <pubDate>Sun, 01 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/kiermeier-2017-root/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Approximated Environment Features With Application to Trajectory Annotation</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2016-approximated/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2016-approximated/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Criteria for Selecting Small Sets of Alternative Routes in Free Space Scenarios</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2016-criteria/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2016-criteria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Identifying Divergent Building Structures Using Fuzzy Clustering of Isovist Features</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2016-identifying/</link>
+      <pubDate>Tue, 01 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2016-identifying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Segmented and Directional Impact Detection for Parked Vehicles using Mobile Devices</title>
+      <link>https://www.sebastianfeld.de/publication/ebert-2016-segmented/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/ebert-2016-segmented/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Archetypes of Alternative Routes in Buildings</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2015-archetypes/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2015-archetypes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuanced Collision Detection for Parked Vehicles</title>
+      <link>https://www.sebastianfeld.de/publication/eber-2015-nuanced/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/eber-2015-nuanced/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traffic Signal Adaptive Routing</title>
+      <link>https://www.sebastianfeld.de/publication/protschky-2015-traffic/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/protschky-2015-traffic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scoring of Alternative Routes Using Implicit Building Topologies</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2015-scoring/</link>
+      <pubDate>Wed, 01 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2015-scoring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ME-VoLTE: Energy-Efficient Video Transcoding At the Mobile Edge</title>
+      <link>https://www.sebastianfeld.de/publication/beck-2015-mevolte/</link>
+      <pubDate>Sun, 01 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/beck-2015-mevolte/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mobile Edge Computing: A Taxonomy</title>
+      <link>https://www.sebastianfeld.de/publication/beck-2014-mobile/</link>
+      <pubDate>Sat, 01 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/beck-2014-mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Homotopy and Alternative Routes in Indoor Navigation Scenarios</title>
+      <link>https://www.sebastianfeld.de/publication/werner-2014-homotopy/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/werner-2014-homotopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Positioning Systems -- An Extension to MoVIPS</title>
+      <link>https://www.sebastianfeld.de/publication/marouane-2014-visual/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/marouane-2014-visual/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Compression of GPS tracks Using Map Information</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2014-compression/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2014-compression/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing the deployment of Bitcoin&#39;s P2P network under an AS-level perspective</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2014-analyzing/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2014-analyzing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Right to Silence: Establishing Map-based Silent Zones for Participatory Sensing</title>
+      <link>https://www.sebastianfeld.de/publication/wiesner-2014-right/</link>
+      <pubDate>Tue, 01 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/wiesner-2014-right/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy-Centric Modeling and Management of Context Information</title>
+      <link>https://www.sebastianfeld.de/publication/dorfmeister-2013-privacy/</link>
+      <pubDate>Tue, 01 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/dorfmeister-2013-privacy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Path Planning Involving Equivalent Places</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2013-efficient/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2013-efficient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy-efficient Tasking in Participatory Sensing Systems</title>
+      <link>https://www.sebastianfeld.de/publication/wiesner-2013-energy/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/wiesner-2013-energy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://www.sebastianfeld.de/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including &lt;a href=&#34;https://docs.hugoblox.com/content/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing G-20&#39;s key autonomous systems and their intermeshing using AS-Analyzer</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2012-analyzing/</link>
+      <pubDate>Mon, 01 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2012-analyzing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Objectives and added value of an Internet Key Figure System for Germany</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2011-objectives/</link>
+      <pubDate>Tue, 01 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2011-objectives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ein Internet-Kennzahlensystem für Deutschland: Anforderungen und technische Maßnahmen</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2011-internet/</link>
+      <pubDate>Thu, 01 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2011-internet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security Analysis of OpenID, followed by a Reference Implementation of an nPA-based OpenID Provider</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2010-security/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2010-security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ein OpenID-Provider mit Proxy-Funktionalität für den nPA</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2010-openid/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2010-openid/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

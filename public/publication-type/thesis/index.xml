@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>thesis | Academic</title>
+    <link>https://www.sebastianfeld.de/publication-type/thesis/</link>
+      <atom:link href="https://www.sebastianfeld.de/publication-type/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>thesis</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.sebastianfeld.de/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>thesis</title>
+      <link>https://www.sebastianfeld.de/publication-type/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Alternative routes in complex environments</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2018-phd/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2018-phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security analysis of an OpenID provider with proxy functionality for the nPA (German ID card)</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2010-msc/</link>
+      <pubDate>Wed, 01 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2010-msc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing obfuscation techniques for email addresses to prevent email address harvesting</title>
+      <link>https://www.sebastianfeld.de/publication/feld-2007-bsc/</link>
+      <pubDate>Thu, 01 Nov 2007 00:00:00 +0000</pubDate>
+      <guid>https://www.sebastianfeld.de/publication/feld-2007-bsc/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
