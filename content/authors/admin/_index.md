@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 吳健雄
+title: Dr. Sebastian Feld
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Sebastian
@@ -17,74 +17,73 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Assistant Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: Delft University of Technology
+    url: https://www.tudelft.nl/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Quantum Machine Learning
+  - Machine Learning for Quantum
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Dr. rer. nat. in Computer Science
+      institution: LMU Munich
+      year: 2018
+    - course: M.Sc. in Applied Computer Science
+      institution: University of Applied Sciences, Gelsenkirchen
+      year: 2010
+    - course: B.Sc. in Media Informatics
+      institution: University of Applied Sciences, Gelsenkirchen
+      year: 2007
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Technical
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
+#SF skills:
+#SF   - name: Technical
+#SF     items:
+#SF       - name: Python
+#SF         description: ''
+#SF         percent: 80
+#SF         icon: python
+#SF         icon_pack: fab
+#SF       - name: Data Science
+#SF         description: ''
+#SF         percent: 100
+#SF         icon: chart-line
+#SF         icon_pack: fas
+#SF       - name: SQL
+#SF         description: ''
+#SF         percent: 40
+#SF         icon: database
+#SF         icon_pack: fas
+#SF   - name: Hobbies
+#SF     color: '#eeac02'
+#SF     color_border: '#f0bf23'
+#SF     items:
+#SF       - name: Hiking
+#SF         description: ''
+#SF         percent: 60
+#SF         icon: person-hiking
+#SF         icon_pack: fas
+#SF       - name: Cats
+#SF         description: ''
+#SF         percent: 100
+#SF         icon: cat
+#SF         icon_pack: fas
+#SF       - name: Photography
+#SF         description: ''
+#SF         percent: 80
+#SF         icon: camera-retro
+#SF         icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -96,29 +95,29 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/sebastian_feld
     label: Follow me on Twitter
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=rMyhyh0AAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/QML-Group
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/sebastian-feld/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+#SF   - icon: cv
+#SF     icon_pack: ai
+#SF     link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Sebastian Feld is an assistant professor at Quantum & Computer Engineering department at Delft University of Technology. Before, he was head of the Quantum Applications and Research Laboratory (QAR-Lab) at LMU Munich. As a postdoctoral researcher his main focus was on optimization problems and the application of quantum-assisted artificial intelligence. He earned his doctorate from LMU Munich working on planning of alternative routes, time series analysis and geospatial trajectories.
 {style="text-align: justify;"}
